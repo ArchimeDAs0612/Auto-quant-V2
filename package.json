@@ -11,7 +11,7 @@
     "install-all": "npm install && npm run install-client",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "postinstall": "npm run install-all && npm run build"
+    "postinstall": "cd client && npm install && cd .. && npm run build"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -28,7 +28,6 @@
     "ws": "^8.14.2"
   },
   "devDependencies": {
-    "@railway/cli": "^4.59.0",
     "jest": "^30.4.2",
     "nodemon": "^3.0.1"
   },
