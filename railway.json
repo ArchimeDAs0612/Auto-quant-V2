@@ -3,7 +3,7 @@
   "build": {
     "builder": "NIXPACKS",
     "nixpacks": {
-      "pkgs": ["nodejs-18_x", "yarn"]
+      "pkgs": ["nodejs_20_x"]
     }
   },
   "deploy": {
