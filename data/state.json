@@ -1,0 +1,7199 @@
+{
+  "tradingStats": {
+    "balance": 949.3311544786973,
+    "initialBalance": 1000,
+    "equity": 920.987395386248,
+    "realizedPnl": -50.66884552130273,
+    "unrealizedPnl": -28.343759092449304,
+    "pnlPercent": -7.901260461375205,
+    "marginUsed": 949.3311544786973,
+    "openPositions": 1,
+    "totalTrades": 2,
+    "wins": 0,
+    "losses": 1,
+    "winRate": 0,
+    "avgWin": 0,
+    "avgLoss": 50.66884552130267,
+    "profitFactor": 0,
+    "maxDrawdown": 506.6884552130273,
+    "maxConsecutiveWins": 0,
+    "maxConsecutiveLosses": 1,
+    "currentConsecutiveWins": 0,
+    "currentConsecutiveLosses": 0,
+    "dailyStats": {
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "volume": 0,
+      "pnl": 0,
+      "startBalance": 1000,
+      "pnlPercent": 0
+    }
+  },
+  "history": [
+    {
+      "id": "POS_1779115595753_stky4px43",
+      "direction": "short",
+      "entryPrice": 76370.4,
+      "pnl": -50.66884552130267,
+      "pnlPercent": -0.006333605690162834,
+      "status": "stop_loss",
+      "duration": null
+    }
+  ],
+  "positions": [
+    {
+      "id": "POS_1779156352971_6nt1pgxop",
+      "direction": "short",
+      "entryPrice": 76552.7,
+      "positionSize": 3797.324617914789,
+      "positionNotional": 3797.324617914789,
+      "leverage": 4,
+      "marginMode": "cross",
+      "stopLoss": 77318.227,
+      "takeProfit": 74179.56629999999,
+      "stopLossPercent": 0.01,
+      "takeProfitPercent": 0.031000000000000003,
+      "liquidationPrice": 95308.1115,
+      "maintenanceMarginRate": 0.005,
+      "signal": {
+        "id": "SIG_1779156352970_niohlcx6h",
+        "action": "SIGNAL",
+        "actionCN": "🟠 信号",
+        "direction": "short",
+        "directionCN": "做空",
+        "confidence": 80,
+        "reason": "评分制信号 做空 (80分)",
+        "entry": {
+          "entryPrice": 76868,
+          "stopLoss": 77759.11649758776,
+          "takeProfit": 74105.53885747789,
+          "stopLossPoints": 891.1164975877764,
+          "leverage": 4,
+          "riskLevel": "High",
+          "scoreBreakdown": {
+            "total": 80,
+            "market": 20,
+            "ema4H": 20,
+            "rsi": 10,
+            "ema1H": 0,
+            "sr": 10,
+            "entry15m": 20,
+            "earlyParticipation": 0
+          },
+          "scoreDetails": [
+            "✅ 市场TRENDING (+20)",
+            "✅ 4H EMA方向确认 (+20) [SHORT]",
+            "✅ RSI健康(47.8) (+10) [SHORT区间28-55]",
+            "⚠️ 1H与4H反向 (EMA20在EMA60另一侧) (+0)",
+            "✅ 距离支撑位0.56% (+10)",
+            "✅ 15m入场信号(2个): 成交量突破,突破局部低点 (+20)"
+          ],
+          "timeframe4H": {
+            "trend": "short",
+            "ema20": 79287.22296244909,
+            "ema60": 79794.41049457893
+          },
+          "timeframe1H": {
+            "ema20": 80404.99270397078,
+            "ema60": 79245.35422552994,
+            "ema1HAligned": false
+          },
+          "timeframe15m": {
+            "ema9": 76930.66688639308,
+            "ema20": 76927.89074761253,
+            "ema9CrossUp20": false,
+            "ema9CrossDown20": false,
+            "volumeSpike": true,
+            "nearLocalHigh": false,
+            "nearLocalLow": true,
+            "rsi": 47.83854409824812
+          },
+          "supportResistance": {
+            "resistance": 81688,
+            "support": 78011.7,
+            "resistanceDistancePercent": 4.130124413624311,
+            "supportDistancePercent": 0.5561645931062652,
+            "nearResistance": false,
+            "nearSupport": true
+          },
+          "entryConditions": 2,
+          "entryDetails": [
+            "成交量突破",
+            "突破局部低点"
+          ]
+        },
+        "noTradeReasons": [],
+        "analysis": {
+          "score": {
+            "total": 80,
+            "market": 20,
+            "ema4H": 20,
+            "rsi": 10,
+            "ema1H": 0,
+            "sr": 10,
+            "entry15m": 20,
+            "earlyParticipation": 0
+          },
+          "scoreDetails": [
+            "✅ 市场TRENDING (+20)",
+            "✅ 4H EMA方向确认 (+20) [SHORT]",
+            "✅ RSI健康(47.8) (+10) [SHORT区间28-55]",
+            "⚠️ 1H与4H反向 (EMA20在EMA60另一侧) (+0)",
+            "✅ 距离支撑位0.56% (+10)",
+            "✅ 15m入场信号(2个): 成交量突破,突破局部低点 (+20)"
+          ],
+          "timeframe4H": "SHORT",
+          "timeframe1H": "SHORT",
+          "timeframe15M": "SHORT",
+          "ema4H": {
+            "ema20": 79287.22296244909,
+            "ema60": 79794.41049457893,
+            "ema20Above60": false
+          },
+          "ema1H": {
+            "ema20": 80404.99270397078,
+            "ema60": 79245.35422552994,
+            "ema20Above60": true
+          },
+          "ema15m": {
+            "ema9": 76930.66688639308,
+            "ema20": 76927.89074761253,
+            "ema9CrossUp20": false,
+            "ema9CrossDown20": false,
+            "ema9Above20": true,
+            "ema9Below20": false
+          },
+          "rsi": 47.83854409824812,
+          "volumeSpike": true,
+          "nearLocalHigh": false,
+          "nearLocalLow": true,
+          "supportResistance": {
+            "resistance": 81688,
+            "support": 78011.7,
+            "resistanceDistancePercent": 4.130124413624311,
+            "supportDistancePercent": 0.5561645931062652,
+            "nearResistance": false,
+            "nearSupport": true
+          },
+          "riskReward": 3.1,
+          "stopLossPoints": 891.1164975877764,
+          "recommendedLeverage": 4,
+          "entryDetails": [
+            "成交量突破",
+            "突破局部低点"
+          ],
+          "noTradeReasons": []
+        },
+        "timestamp": 1779156352970,
+        "formattedTime": "2026/5/19 10:05:52"
+      },
+      "openedAt": 1779156352971,
+      "openedAtStr": "2026-05-19T02:05:52.971Z"
+    }
+  ],
+  "dailyLossCount": 0,
+  "equityHistory": [
+    {
+      "timestamp": 1779163082020,
+      "balance": 949.3311544786973,
+      "equity": 939.6087589902129,
+      "unrealizedPnl": -9.722395488484386,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163092021,
+      "balance": 949.3311544786973,
+      "equity": 939.6682838605504,
+      "unrealizedPnl": -9.662870618146872,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163102022,
+      "balance": 949.3311544786973,
+      "equity": 939.8915021243166,
+      "unrealizedPnl": -9.439652354380648,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163112022,
+      "balance": 949.3311544786973,
+      "equity": 939.6782046722732,
+      "unrealizedPnl": -9.652949806424072,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163122023,
+      "balance": 949.3311544786973,
+      "equity": 940.2784137815115,
+      "unrealizedPnl": -9.052740697185717,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163132025,
+      "balance": 949.3311544786973,
+      "equity": 940.2784137815115,
+      "unrealizedPnl": -9.052740697185717,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163142028,
+      "balance": 949.3311544786973,
+      "equity": 940.655404626983,
+      "unrealizedPnl": -8.675749851714306,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163152030,
+      "balance": 949.3311544786973,
+      "equity": 941.0274350665933,
+      "unrealizedPnl": -8.303719412103934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163162032,
+      "balance": 949.3311544786973,
+      "equity": 940.2784137815115,
+      "unrealizedPnl": -9.052740697185717,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163172034,
+      "balance": 949.3311544786973,
+      "equity": 940.2784137815115,
+      "unrealizedPnl": -9.052740697185717,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163182034,
+      "balance": 949.3311544786973,
+      "equity": 939.9311853712086,
+      "unrealizedPnl": -9.399969107488731,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163192036,
+      "balance": 949.3311544786973,
+      "equity": 939.3557782912775,
+      "unrealizedPnl": -9.975376187419728,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163202037,
+      "balance": 949.3311544786973,
+      "equity": 939.3607386971393,
+      "unrealizedPnl": -9.970415781557968,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163212037,
+      "balance": 949.3311544786973,
+      "equity": 939.6186798019357,
+      "unrealizedPnl": -9.712474676761587,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163222039,
+      "balance": 949.3311544786973,
+      "equity": 940.2040076935895,
+      "unrealizedPnl": -9.127146785107792,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163232042,
+      "balance": 949.3311544786973,
+      "equity": 940.7794147735198,
+      "unrealizedPnl": -8.551739705177516,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163242042,
+      "balance": 949.3311544786973,
+      "equity": 940.7843751793815,
+      "unrealizedPnl": -8.546779299315755,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163252044,
+      "balance": 949.3311544786973,
+      "equity": 941.578040117217,
+      "unrealizedPnl": -7.7531143614802955,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163262045,
+      "balance": 949.3311544786973,
+      "equity": 941.9649517744119,
+      "unrealizedPnl": -7.366202704285364,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163272045,
+      "balance": 949.3311544786973,
+      "equity": 941.1018411545155,
+      "unrealizedPnl": -8.22931332418186,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163282047,
+      "balance": 949.3311544786973,
+      "equity": 939.3905011323077,
+      "unrealizedPnl": -9.940653346389572,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163292049,
+      "balance": 949.3311544786973,
+      "equity": 937.6493986749316,
+      "unrealizedPnl": -11.681755803765679,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163302051,
+      "balance": 949.3311544786973,
+      "equity": 937.7436463862992,
+      "unrealizedPnl": -11.587508092398007,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163312052,
+      "balance": 949.3311544786973,
+      "equity": 937.1037540301697,
+      "unrealizedPnl": -12.227400448527558,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163322053,
+      "balance": 949.3311544786973,
+      "equity": 938.5869153827495,
+      "unrealizedPnl": -10.74423909594783,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163332055,
+      "balance": 949.3311544786973,
+      "equity": 938.9639062282216,
+      "unrealizedPnl": -10.367248250475699,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163342055,
+      "balance": 949.3311544786973,
+      "equity": 939.3557782912775,
+      "unrealizedPnl": -9.975376187419728,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163352057,
+      "balance": 949.3311544786973,
+      "equity": 939.9708686181004,
+      "unrealizedPnl": -9.360285860596813,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163362057,
+      "balance": 949.3311544786973,
+      "equity": 939.9956706474078,
+      "unrealizedPnl": -9.335483831289455,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163372059,
+      "balance": 949.3311544786973,
+      "equity": 940.0601559236063,
+      "unrealizedPnl": -9.270998555090902,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163382061,
+      "balance": 949.3311544786973,
+      "equity": 942.0244766447494,
+      "unrealizedPnl": -7.306677833947849,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163392063,
+      "balance": 949.3311544786973,
+      "equity": 942.0294370506111,
+      "unrealizedPnl": -7.301717428086088,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163402065,
+      "balance": 949.3311544786973,
+      "equity": 941.9153477157972,
+      "unrealizedPnl": -7.415806762900081,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163412068,
+      "balance": 949.3311544786973,
+      "equity": 941.1415244014073,
+      "unrealizedPnl": -8.189630077289943,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163422069,
+      "balance": 949.3311544786973,
+      "equity": 940.7099690914595,
+      "unrealizedPnl": -8.62118538723783,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163432070,
+      "balance": 949.3311544786973,
+      "equity": 939.990710241546,
+      "unrealizedPnl": -9.340444237151216,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163442072,
+      "balance": 949.3311544786973,
+      "equity": 939.9956706474078,
+      "unrealizedPnl": -9.335483831289455,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163452074,
+      "balance": 949.3311544786973,
+      "equity": 938.6662818765333,
+      "unrealizedPnl": -10.664872602163994,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163462074,
+      "balance": 949.3311544786973,
+      "equity": 938.9043813578841,
+      "unrealizedPnl": -10.426773120813213,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163472076,
+      "balance": 949.3311544786973,
+      "equity": 939.0531935337282,
+      "unrealizedPnl": -10.277960944969065,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163482079,
+      "balance": 949.3311544786973,
+      "equity": 938.4430636127671,
+      "unrealizedPnl": -10.888090865930218,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163492080,
+      "balance": 949.3311544786973,
+      "equity": 938.4381032069053,
+      "unrealizedPnl": -10.893051271791979,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163502081,
+      "balance": 949.3311544786973,
+      "equity": 938.2000037255546,
+      "unrealizedPnl": -11.131150753142762,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163512082,
+      "balance": 949.3311544786973,
+      "equity": 939.1424808392342,
+      "unrealizedPnl": -10.188673639463152,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163522085,
+      "balance": 949.3311544786973,
+      "equity": 938.6514006589487,
+      "unrealizedPnl": -10.679753819748555,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163532086,
+      "balance": 949.3311544786973,
+      "equity": 938.3388950896758,
+      "unrealizedPnl": -10.992259389021411,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163542088,
+      "balance": 949.3311544786973,
+      "equity": 938.3438554955376,
+      "unrealizedPnl": -10.987298983159652,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163552090,
+      "balance": 949.3311544786973,
+      "equity": 937.4956260932257,
+      "unrealizedPnl": -11.835528385471589,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163562092,
+      "balance": 949.3311544786973,
+      "equity": 937.3517743232433,
+      "unrealizedPnl": -11.979380155453976,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163572093,
+      "balance": 949.3311544786973,
+      "equity": 938.6067570061957,
+      "unrealizedPnl": -10.724397472501511,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163582095,
+      "balance": 949.3311544786973,
+      "equity": 938.7754108054855,
+      "unrealizedPnl": -10.555743673211765,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163592097,
+      "balance": 949.3311544786973,
+      "equity": 938.7704503996238,
+      "unrealizedPnl": -10.560704079073524,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163602098,
+      "balance": 949.3311544786973,
+      "equity": 939.3309762619701,
+      "unrealizedPnl": -10.000178216727086,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163612101,
+      "balance": 949.3311544786973,
+      "equity": 939.9857498356843,
+      "unrealizedPnl": -9.345404643012975,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163622103,
+      "balance": 949.3311544786973,
+      "equity": 939.6236402077974,
+      "unrealizedPnl": -9.707514270899827,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163632104,
+      "balance": 949.3311544786973,
+      "equity": 940.1940868818667,
+      "unrealizedPnl": -9.13706759683059,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163642107,
+      "balance": 949.3311544786973,
+      "equity": 939.177203680265,
+      "unrealizedPnl": -10.153950798432273,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163652107,
+      "balance": 949.3311544786973,
+      "equity": 939.5343529022908,
+      "unrealizedPnl": -9.79680157640646,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163662109,
+      "balance": 949.3311544786973,
+      "equity": 939.1027975923429,
+      "unrealizedPnl": -10.228356886354348,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163672109,
+      "balance": 949.3311544786973,
+      "equity": 938.6315590355031,
+      "unrealizedPnl": -10.699595443194152,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163682111,
+      "balance": 949.3311544786973,
+      "equity": 936.5729906029924,
+      "unrealizedPnl": -12.758163875704877,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163692114,
+      "balance": 949.3311544786973,
+      "equity": 936.478742891624,
+      "unrealizedPnl": -12.85241158707327,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163702114,
+      "balance": 949.3311544786973,
+      "equity": 936.473782485763,
+      "unrealizedPnl": -12.85737199293431,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163712115,
+      "balance": 949.3311544786973,
+      "equity": 936.473782485763,
+      "unrealizedPnl": -12.85737199293431,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163722116,
+      "balance": 949.3311544786973,
+      "equity": 936.0719896109835,
+      "unrealizedPnl": -13.2591648677138,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163732118,
+      "balance": 949.3311544786973,
+      "equity": 936.0719896109835,
+      "unrealizedPnl": -13.2591648677138,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163742120,
+      "balance": 949.3311544786973,
+      "equity": 936.0769500168452,
+      "unrealizedPnl": -13.25420446185204,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163752122,
+      "balance": 949.3311544786973,
+      "equity": 936.9599022601866,
+      "unrealizedPnl": -12.371252218510667,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163762123,
+      "balance": 949.3311544786973,
+      "equity": 937.059110377416,
+      "unrealizedPnl": -12.272044101281235,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163772125,
+      "balance": 949.3311544786973,
+      "equity": 936.1067124520137,
+      "unrealizedPnl": -13.224442026683644,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163782127,
+      "balance": 949.3311544786973,
+      "equity": 936.0025439289232,
+      "unrealizedPnl": -13.328610549774114,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163792130,
+      "balance": 949.3311544786973,
+      "equity": 935.699959171373,
+      "unrealizedPnl": -13.631195307324171,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163802131,
+      "balance": 949.3311544786973,
+      "equity": 935.699959171373,
+      "unrealizedPnl": -13.631195307324171,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163812133,
+      "balance": 949.3311544786973,
+      "equity": 936.2257621926893,
+      "unrealizedPnl": -13.10539228600789,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163822134,
+      "balance": 949.3311544786973,
+      "equity": 935.7098799830959,
+      "unrealizedPnl": -13.621274495601373,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163832137,
+      "balance": 949.3311544786973,
+      "equity": 935.4370576607149,
+      "unrealizedPnl": -13.894096817982312,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163842139,
+      "balance": 949.3311544786973,
+      "equity": 935.6949987655113,
+      "unrealizedPnl": -13.636155713185932,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163852140,
+      "balance": 949.3311544786973,
+      "equity": 934.856690174923,
+      "unrealizedPnl": -14.474464303774347,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163862141,
+      "balance": 949.3311544786973,
+      "equity": 934.6731551580486,
+      "unrealizedPnl": -14.657999320648655,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163872142,
+      "balance": 949.3311544786973,
+      "equity": 934.3656099946376,
+      "unrealizedPnl": -14.965544484059752,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163882144,
+      "balance": 949.3311544786973,
+      "equity": 934.0183815843345,
+      "unrealizedPnl": -15.312772894362766,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163892146,
+      "balance": 949.3311544786973,
+      "equity": 932.1036649218062,
+      "unrealizedPnl": -17.2274895568911,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163902147,
+      "balance": 949.3311544786973,
+      "equity": 931.647307582551,
+      "unrealizedPnl": -17.683846896146346,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163912150,
+      "balance": 949.3311544786973,
+      "equity": 931.6324263649664,
+      "unrealizedPnl": -17.698728113730905,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163922151,
+      "balance": 949.3311544786973,
+      "equity": 933.0014983827328,
+      "unrealizedPnl": -16.32965609596445,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163932154,
+      "balance": 949.3311544786973,
+      "equity": 933.7505196678146,
+      "unrealizedPnl": -15.580634810882664,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163942154,
+      "balance": 949.3311544786973,
+      "equity": 933.6116283036932,
+      "unrealizedPnl": -15.719526175004015,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163952154,
+      "balance": 949.3311544786973,
+      "equity": 933.3487267930359,
+      "unrealizedPnl": -15.982427685661435,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163962156,
+      "balance": 949.3311544786973,
+      "equity": 933.7505196678146,
+      "unrealizedPnl": -15.580634810882664,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163972155,
+      "balance": 949.3311544786973,
+      "equity": 933.8001237264293,
+      "unrealizedPnl": -15.53103075226795,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163982156,
+      "balance": 949.3311544786973,
+      "equity": 933.8001237264293,
+      "unrealizedPnl": -15.53103075226795,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779163992158,
+      "balance": 949.3311544786973,
+      "equity": 933.9588567139963,
+      "unrealizedPnl": -15.372297764701,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164002160,
+      "balance": 949.3311544786973,
+      "equity": 933.9588567139963,
+      "unrealizedPnl": -15.372297764701,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164012161,
+      "balance": 949.3311544786973,
+      "equity": 933.9439754964125,
+      "unrealizedPnl": -15.387178982284839,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164022163,
+      "balance": 949.3311544786973,
+      "equity": 933.7554800736764,
+      "unrealizedPnl": -15.575674405020903,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164032164,
+      "balance": 949.3311544786973,
+      "equity": 933.5223409981874,
+      "unrealizedPnl": -15.808813480509928,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164042166,
+      "balance": 949.3311544786973,
+      "equity": 933.4082516633733,
+      "unrealizedPnl": -15.922902815323917,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164052168,
+      "balance": 949.3311544786973,
+      "equity": 933.6761135798926,
+      "unrealizedPnl": -15.65504089880474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164062170,
+      "balance": 949.3311544786973,
+      "equity": 934.0382232077801,
+      "unrealizedPnl": -15.292931270917167,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164072172,
+      "balance": 949.3311544786973,
+      "equity": 934.0332628019183,
+      "unrealizedPnl": -15.297891676778926,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164082174,
+      "balance": 949.3311544786973,
+      "equity": 934.0332628019183,
+      "unrealizedPnl": -15.297891676778926,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164092175,
+      "balance": 949.3311544786973,
+      "equity": 934.0382232077801,
+      "unrealizedPnl": -15.292931270917167,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164102178,
+      "balance": 949.3311544786973,
+      "equity": 934.0382232077801,
+      "unrealizedPnl": -15.292931270917167,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164112180,
+      "balance": 949.3311544786973,
+      "equity": 934.702917593217,
+      "unrealizedPnl": -14.628236885480256,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164122182,
+      "balance": 949.3311544786973,
+      "equity": 935.5511469955289,
+      "unrealizedPnl": -13.780007483168319,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164132184,
+      "balance": 949.3311544786973,
+      "equity": 935.4023348196848,
+      "unrealizedPnl": -13.928819659012468,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164142184,
+      "balance": 949.3311544786973,
+      "equity": 934.817006928031,
+      "unrealizedPnl": -14.514147550666264,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164152185,
+      "balance": 949.3311544786973,
+      "equity": 934.4796993294508,
+      "unrealizedPnl": -14.85145514924648,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164162186,
+      "balance": 949.3311544786973,
+      "equity": 935.0947896562737,
+      "unrealizedPnl": -14.236364822423566,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164172188,
+      "balance": 949.3311544786973,
+      "equity": 935.2981662965936,
+      "unrealizedPnl": -14.032988182103663,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164182189,
+      "balance": 949.3311544786973,
+      "equity": 935.2882454848708,
+      "unrealizedPnl": -14.04290899382646,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164192191,
+      "balance": 949.3311544786973,
+      "equity": 936.2307225985504,
+      "unrealizedPnl": -13.100431880146852,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164202193,
+      "balance": 949.3311544786973,
+      "equity": 935.8785337823864,
+      "unrealizedPnl": -13.452620696310904,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164212194,
+      "balance": 949.3311544786973,
+      "equity": 935.6553155186201,
+      "unrealizedPnl": -13.675838960077128,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164222196,
+      "balance": 949.3311544786973,
+      "equity": 935.5809094306981,
+      "unrealizedPnl": -13.7502450479992,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164232196,
+      "balance": 949.3311544786973,
+      "equity": 935.5561074013907,
+      "unrealizedPnl": -13.77504707730656,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164242197,
+      "balance": 949.3311544786973,
+      "equity": 935.1096708738582,
+      "unrealizedPnl": -14.221483604839007,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164252198,
+      "balance": 949.3311544786973,
+      "equity": 934.6037094759876,
+      "unrealizedPnl": -14.727445002709691,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164262200,
+      "balance": 949.3311544786973,
+      "equity": 934.3259267477456,
+      "unrealizedPnl": -15.005227730951669,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164272202,
+      "balance": 949.3311544786973,
+      "equity": 935.3180079200399,
+      "unrealizedPnl": -14.013146558657342,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164282204,
+      "balance": 949.3311544786973,
+      "equity": 935.2733642672863,
+      "unrealizedPnl": -14.057790211411021,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164292206,
+      "balance": 949.3311544786973,
+      "equity": 935.7892464768797,
+      "unrealizedPnl": -13.541908001817538,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164302208,
+      "balance": 949.3311544786973,
+      "equity": 936.6473966909144,
+      "unrealizedPnl": -12.683757787782802,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164312210,
+      "balance": 949.3311544786973,
+      "equity": 937.9420626207582,
+      "unrealizedPnl": -11.38909185793914,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164322212,
+      "balance": 949.3311544786973,
+      "equity": 937.3964179759962,
+      "unrealizedPnl": -11.934736502701021,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164332214,
+      "balance": 949.3311544786973,
+      "equity": 937.3765763525506,
+      "unrealizedPnl": -11.954578126146618,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164342216,
+      "balance": 949.3311544786973,
+      "equity": 937.3765763525506,
+      "unrealizedPnl": -11.954578126146618,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164352216,
+      "balance": 949.3311544786973,
+      "equity": 939.0531935337282,
+      "unrealizedPnl": -10.277960944969065,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164362218,
+      "balance": 949.3311544786973,
+      "equity": 939.0730351571738,
+      "unrealizedPnl": -10.258119321523466,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164372220,
+      "balance": 949.3311544786973,
+      "equity": 939.0730351571738,
+      "unrealizedPnl": -10.258119321523466,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164382221,
+      "balance": 949.3311544786973,
+      "equity": 939.2813722033554,
+      "unrealizedPnl": -10.049782275341801,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164392223,
+      "balance": 949.3311544786973,
+      "equity": 939.2764117974945,
+      "unrealizedPnl": -10.05474268120284,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164402225,
+      "balance": 949.3311544786973,
+      "equity": 939.4797884378144,
+      "unrealizedPnl": -9.851366040882938,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164412227,
+      "balance": 949.3311544786973,
+      "equity": 939.1524016509576,
+      "unrealizedPnl": -10.17875282773963,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164422229,
+      "balance": 949.3311544786973,
+      "equity": 939.2565701740481,
+      "unrealizedPnl": -10.07458430464916,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164432231,
+      "balance": 949.3311544786973,
+      "equity": 937.7535671980221,
+      "unrealizedPnl": -11.577587280675209,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164442232,
+      "balance": 949.3311544786973,
+      "equity": 937.446022034611,
+      "unrealizedPnl": -11.885132444086304,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164452233,
+      "balance": 949.3311544786973,
+      "equity": 937.3765763525506,
+      "unrealizedPnl": -11.954578126146618,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164462233,
+      "balance": 949.3311544786973,
+      "equity": 936.7515652140049,
+      "unrealizedPnl": -12.57958926469233,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164472235,
+      "balance": 949.3311544786973,
+      "equity": 937.4361012228882,
+      "unrealizedPnl": -11.895053255809103,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164482237,
+      "balance": 949.3311544786973,
+      "equity": 937.7734088214684,
+      "unrealizedPnl": -11.557745657228887,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164492237,
+      "balance": 949.3311544786973,
+      "equity": 937.5005864990875,
+      "unrealizedPnl": -11.830567979609828,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164502239,
+      "balance": 949.3311544786973,
+      "equity": 937.6890819218235,
+      "unrealizedPnl": -11.64207255687376,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164512241,
+      "balance": 949.3311544786973,
+      "equity": 938.6067570061957,
+      "unrealizedPnl": -10.724397472501511,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164522243,
+      "balance": 949.3311544786973,
+      "equity": 939.4500260026459,
+      "unrealizedPnl": -9.881128476051334,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164532245,
+      "balance": 949.3311544786973,
+      "equity": 939.4946696553989,
+      "unrealizedPnl": -9.83648482329838,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164542247,
+      "balance": 949.3311544786973,
+      "equity": 939.5442737140136,
+      "unrealizedPnl": -9.786880764683662,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164552249,
+      "balance": 949.3311544786973,
+      "equity": 939.5393133081518,
+      "unrealizedPnl": -9.791841170545421,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164562250,
+      "balance": 949.3311544786973,
+      "equity": 939.5442737140136,
+      "unrealizedPnl": -9.786880764683662,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164572252,
+      "balance": 949.3311544786973,
+      "equity": 940.7744543676587,
+      "unrealizedPnl": -8.556700111038555,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164582254,
+      "balance": 949.3311544786973,
+      "equity": 941.5830005230787,
+      "unrealizedPnl": -7.748153955618535,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164592256,
+      "balance": 949.3311544786973,
+      "equity": 941.8459020337361,
+      "unrealizedPnl": -7.485252444961117,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164602259,
+      "balance": 949.3311544786973,
+      "equity": 941.9351893392428,
+      "unrealizedPnl": -7.395965139454483,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164612260,
+      "balance": 949.3311544786973,
+      "equity": 941.8409416278752,
+      "unrealizedPnl": -7.490212850822155,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164622262,
+      "balance": 949.3311544786973,
+      "equity": 942.6296461598488,
+      "unrealizedPnl": -6.701508318848456,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164632264,
+      "balance": 949.3311544786973,
+      "equity": 943.1604095870262,
+      "unrealizedPnl": -6.170744891671136,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164642266,
+      "balance": 949.3311544786973,
+      "equity": 942.6594085950179,
+      "unrealizedPnl": -6.671745883679337,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164652268,
+      "balance": 949.3311544786973,
+      "equity": 942.738775088801,
+      "unrealizedPnl": -6.592379389896224,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164662269,
+      "balance": 949.3311544786973,
+      "equity": 942.0542390799185,
+      "unrealizedPnl": -7.27691539877873,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164672271,
+      "balance": 949.3311544786973,
+      "equity": 942.0244766447494,
+      "unrealizedPnl": -7.306677833947849,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164682273,
+      "balance": 949.3311544786973,
+      "equity": 941.9103873099355,
+      "unrealizedPnl": -7.4207671687618415,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164692274,
+      "balance": 949.3311544786973,
+      "equity": 942.0244766447494,
+      "unrealizedPnl": -7.306677833947849,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164702274,
+      "balance": 949.3311544786973,
+      "equity": 941.4887528117104,
+      "unrealizedPnl": -7.842401666986929,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164712275,
+      "balance": 949.3311544786973,
+      "equity": 941.4986736234331,
+      "unrealizedPnl": -7.832480855264131,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164722277,
+      "balance": 949.3311544786973,
+      "equity": 942.0244766447494,
+      "unrealizedPnl": -7.306677833947849,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164732279,
+      "balance": 949.3311544786973,
+      "equity": 942.0195162388877,
+      "unrealizedPnl": -7.31163823980961,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164742281,
+      "balance": 949.3311544786973,
+      "equity": 942.3717050550524,
+      "unrealizedPnl": -6.959449423644835,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164752283,
+      "balance": 949.3311544786973,
+      "equity": 942.0691202975024,
+      "unrealizedPnl": -7.262034181194893,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164762285,
+      "balance": 949.3311544786973,
+      "equity": 942.2675365319612,
+      "unrealizedPnl": -7.063617946736029,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164772287,
+      "balance": 949.3311544786973,
+      "equity": 941.9401497451046,
+      "unrealizedPnl": -7.391004733592722,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164782289,
+      "balance": 949.3311544786973,
+      "equity": 942.2675365319612,
+      "unrealizedPnl": -7.063617946736029,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164792291,
+      "balance": 949.3311544786973,
+      "equity": 943.0165578170438,
+      "unrealizedPnl": -6.314596661653524,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164802293,
+      "balance": 949.3311544786973,
+      "equity": 943.3985090683769,
+      "unrealizedPnl": -5.932645410320353,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164812294,
+      "balance": 949.3311544786973,
+      "equity": 943.2348156749482,
+      "unrealizedPnl": -6.0963388037490605,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164822296,
+      "balance": 949.3311544786973,
+      "equity": 943.6713313907578,
+      "unrealizedPnl": -5.659823087939414,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164832296,
+      "balance": 949.3311544786973,
+      "equity": 943.6762917966196,
+      "unrealizedPnl": -5.6548626820776535,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164842298,
+      "balance": 949.3311544786973,
+      "equity": 942.8429436118922,
+      "unrealizedPnl": -6.488210866805031,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164852300,
+      "balance": 949.3311544786973,
+      "equity": 943.011597411182,
+      "unrealizedPnl": -6.319557067515284,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164862302,
+      "balance": 949.3311544786973,
+      "equity": 942.7586167122473,
+      "unrealizedPnl": -6.572537766449904,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164872304,
+      "balance": 949.3311544786973,
+      "equity": 942.5701212895113,
+      "unrealizedPnl": -6.76103318918597,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164882306,
+      "balance": 949.3311544786973,
+      "equity": 942.6147649422643,
+      "unrealizedPnl": -6.716389536433014,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164892308,
+      "balance": 949.3311544786973,
+      "equity": 942.8131811767231,
+      "unrealizedPnl": -6.517973301974149,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164902311,
+      "balance": 949.3311544786973,
+      "equity": 942.7685375239702,
+      "unrealizedPnl": -6.562616954727106,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164912313,
+      "balance": 949.3311544786973,
+      "equity": 942.6742898126025,
+      "unrealizedPnl": -6.656864666094777,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164922315,
+      "balance": 949.3311544786973,
+      "equity": 942.2476949085157,
+      "unrealizedPnl": -7.083459570181625,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164932317,
+      "balance": 949.3311544786973,
+      "equity": 941.6375649875545,
+      "unrealizedPnl": -7.69358949114278,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164942319,
+      "balance": 949.3311544786973,
+      "equity": 942.5899629129569,
+      "unrealizedPnl": -6.7411915657403725,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164952320,
+      "balance": 949.3311544786973,
+      "equity": 942.5899629129569,
+      "unrealizedPnl": -6.7411915657403725,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164962322,
+      "balance": 949.3311544786973,
+      "equity": 942.8181415825849,
+      "unrealizedPnl": -6.5130128961123885,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164972324,
+      "balance": 949.3311544786973,
+      "equity": 942.1931304440392,
+      "unrealizedPnl": -7.138024034658103,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164982327,
+      "balance": 949.3311544786973,
+      "equity": 942.158407603009,
+      "unrealizedPnl": -7.172746875688259,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779164992326,
+      "balance": 949.3311544786973,
+      "equity": 942.153447197148,
+      "unrealizedPnl": -7.177707281549298,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165002328,
+      "balance": 949.3311544786973,
+      "equity": 941.6375649875545,
+      "unrealizedPnl": -7.69358949114278,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165012330,
+      "balance": 949.3311544786973,
+      "equity": 941.9500705568273,
+      "unrealizedPnl": -7.381083921869924,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165022332,
+      "balance": 949.3311544786973,
+      "equity": 941.5085944351566,
+      "unrealizedPnl": -7.8225600435406095,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165032333,
+      "balance": 949.3311544786973,
+      "equity": 940.6454838152601,
+      "unrealizedPnl": -8.685670663437106,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165042335,
+      "balance": 949.3311544786973,
+      "equity": 940.2734533756498,
+      "unrealizedPnl": -9.057701103047478,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165052336,
+      "balance": 949.3311544786973,
+      "equity": 939.990710241546,
+      "unrealizedPnl": -9.340444237151216,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165062338,
+      "balance": 949.3311544786973,
+      "equity": 939.6385214253813,
+      "unrealizedPnl": -9.692633053315989,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165072341,
+      "balance": 949.3311544786973,
+      "equity": 939.6335610195202,
+      "unrealizedPnl": -9.697593459177028,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165082343,
+      "balance": 949.3311544786973,
+      "equity": 939.990710241546,
+      "unrealizedPnl": -9.340444237151216,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165092343,
+      "balance": 949.3311544786973,
+      "equity": 939.5442737140136,
+      "unrealizedPnl": -9.786880764683662,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165102343,
+      "balance": 949.3311544786973,
+      "equity": 939.5492341198753,
+      "unrealizedPnl": -9.781920358821901,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165112345,
+      "balance": 949.3311544786973,
+      "equity": 939.5442737140136,
+      "unrealizedPnl": -9.786880764683662,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165122347,
+      "balance": 949.3311544786973,
+      "equity": 938.9341437930525,
+      "unrealizedPnl": -10.397010685644815,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165132348,
+      "balance": 949.3311544786973,
+      "equity": 938.5422717299965,
+      "unrealizedPnl": -10.788882748700786,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165142350,
+      "balance": 949.3311544786973,
+      "equity": 938.5422717299965,
+      "unrealizedPnl": -10.788882748700786,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165152353,
+      "balance": 949.3311544786973,
+      "equity": 938.5472321358575,
+      "unrealizedPnl": -10.783922342839748,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165162355,
+      "balance": 949.3311544786973,
+      "equity": 938.180162102109,
+      "unrealizedPnl": -11.15099237658836,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165172356,
+      "balance": 949.3311544786973,
+      "equity": 938.5472321358575,
+      "unrealizedPnl": -10.783922342839748,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165182358,
+      "balance": 949.3311544786973,
+      "equity": 939.5393133081518,
+      "unrealizedPnl": -9.791841170545421,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165192360,
+      "balance": 949.3311544786973,
+      "equity": 939.0581539395893,
+      "unrealizedPnl": -10.273000539108025,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165202362,
+      "balance": 949.3311544786973,
+      "equity": 938.5521925417193,
+      "unrealizedPnl": -10.778961936977987,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165212365,
+      "balance": 949.3311544786973,
+      "equity": 938.0958352024641,
+      "unrealizedPnl": -11.235319276233232,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165222367,
+      "balance": 949.3311544786973,
+      "equity": 937.7287651687147,
+      "unrealizedPnl": -11.602389309982565,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165232369,
+      "balance": 949.3311544786973,
+      "equity": 937.7238047628537,
+      "unrealizedPnl": -11.607349715843604,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165242371,
+      "balance": 949.3311544786973,
+      "equity": 938.6960443117017,
+      "unrealizedPnl": -10.635110166995599,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165252373,
+      "balance": 949.3311544786973,
+      "equity": 938.0611123614339,
+      "unrealizedPnl": -11.270042117263388,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165262375,
+      "balance": 949.3311544786973,
+      "equity": 938.0561519555721,
+      "unrealizedPnl": -11.27500252312515,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165272377,
+      "balance": 949.3311544786973,
+      "equity": 938.0561519555721,
+      "unrealizedPnl": -11.27500252312515,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165282379,
+      "balance": 949.3311544786973,
+      "equity": 938.4629052362127,
+      "unrealizedPnl": -10.868249242484621,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165292380,
+      "balance": 949.3311544786973,
+      "equity": 938.4629052362127,
+      "unrealizedPnl": -10.868249242484621,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165302385,
+      "balance": 949.3311544786973,
+      "equity": 938.6960443117017,
+      "unrealizedPnl": -10.635110166995599,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165312394,
+      "balance": 949.3311544786973,
+      "equity": 938.2000037255546,
+      "unrealizedPnl": -11.131150753142762,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165322398,
+      "balance": 949.3311544786973,
+      "equity": 937.9172605914508,
+      "unrealizedPnl": -11.4138938872465,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165332400,
+      "balance": 949.3311544786973,
+      "equity": 937.0690311891395,
+      "unrealizedPnl": -12.262123289557714,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165342403,
+      "balance": 949.3311544786973,
+      "equity": 936.9599022601866,
+      "unrealizedPnl": -12.371252218510667,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165352406,
+      "balance": 949.3311544786973,
+      "equity": 936.0719896109835,
+      "unrealizedPnl": -13.2591648677138,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165362409,
+      "balance": 949.3311544786973,
+      "equity": 935.699959171373,
+      "unrealizedPnl": -13.631195307324171,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165372410,
+      "balance": 949.3311544786973,
+      "equity": 935.5809094306981,
+      "unrealizedPnl": -13.7502450479992,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165382413,
+      "balance": 949.3311544786973,
+      "equity": 935.0848688445509,
+      "unrealizedPnl": -14.246285634146366,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165392415,
+      "balance": 949.3311544786973,
+      "equity": 935.0848688445509,
+      "unrealizedPnl": -14.246285634146366,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165402415,
+      "balance": 949.3311544786973,
+      "equity": 935.0799084386891,
+      "unrealizedPnl": -14.251246040008127,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165412416,
+      "balance": 949.3311544786973,
+      "equity": 935.5610678072518,
+      "unrealizedPnl": -13.770086671445522,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165422418,
+      "balance": 949.3311544786973,
+      "equity": 935.5660282131136,
+      "unrealizedPnl": -13.765126265583762,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165432420,
+      "balance": 949.3311544786973,
+      "equity": 935.5660282131136,
+      "unrealizedPnl": -13.765126265583762,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165442421,
+      "balance": 949.3311544786973,
+      "equity": 935.5610678072518,
+      "unrealizedPnl": -13.770086671445522,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165452421,
+      "balance": 949.3311544786973,
+      "equity": 936.3993763978409,
+      "unrealizedPnl": -12.931778080856382,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165462422,
+      "balance": 949.3311544786973,
+      "equity": 936.3993763978409,
+      "unrealizedPnl": -12.931778080856382,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165472424,
+      "balance": 949.3311544786973,
+      "equity": 936.3993763978409,
+      "unrealizedPnl": -12.931778080856382,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165482425,
+      "balance": 949.3311544786973,
+      "equity": 936.8904565781263,
+      "unrealizedPnl": -12.440697900570981,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165492427,
+      "balance": 949.3311544786973,
+      "equity": 936.4142576154247,
+      "unrealizedPnl": -12.916896863272546,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165502429,
+      "balance": 949.3311544786973,
+      "equity": 936.4043368037019,
+      "unrealizedPnl": -12.926817674995345,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165512431,
+      "balance": 949.3311544786973,
+      "equity": 936.1711977282129,
+      "unrealizedPnl": -13.159956750484367,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165522433,
+      "balance": 949.3311544786973,
+      "equity": 936.9102982015719,
+      "unrealizedPnl": -12.420856277125385,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165532433,
+      "balance": 949.3311544786973,
+      "equity": 937.0640707832778,
+      "unrealizedPnl": -12.267083695419474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165542433,
+      "balance": 949.3311544786973,
+      "equity": 937.6543590807926,
+      "unrealizedPnl": -11.676795397904641,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165552436,
+      "balance": 949.3311544786973,
+      "equity": 937.0640707832778,
+      "unrealizedPnl": -12.267083695419474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165562436,
+      "balance": 949.3311544786973,
+      "equity": 936.3894555861174,
+      "unrealizedPnl": -12.941698892579904,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165572438,
+      "balance": 949.3311544786973,
+      "equity": 935.8834941882474,
+      "unrealizedPnl": -13.447660290449866,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165582439,
+      "balance": 949.3311544786973,
+      "equity": 935.8834941882474,
+      "unrealizedPnl": -13.447660290449866,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165592441,
+      "balance": 949.3311544786973,
+      "equity": 935.8884545941091,
+      "unrealizedPnl": -13.442699884588105,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165602443,
+      "balance": 949.3311544786973,
+      "equity": 936.7118819671131,
+      "unrealizedPnl": -12.61927251158425,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165612444,
+      "balance": 949.3311544786973,
+      "equity": 935.9281378410011,
+      "unrealizedPnl": -13.403016637696188,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165622444,
+      "balance": 949.3311544786973,
+      "equity": 934.3457683711912,
+      "unrealizedPnl": -14.98538610750607,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165632446,
+      "balance": 949.3311544786973,
+      "equity": 934.0927876722566,
+      "unrealizedPnl": -15.23836680644069,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165642447,
+      "balance": 949.3311544786973,
+      "equity": 934.0927876722566,
+      "unrealizedPnl": -15.23836680644069,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165652448,
+      "balance": 949.3311544786973,
+      "equity": 934.0878272663948,
+      "unrealizedPnl": -15.24332721230245,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165662449,
+      "balance": 949.3311544786973,
+      "equity": 934.0927876722566,
+      "unrealizedPnl": -15.23836680644069,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165672451,
+      "balance": 949.3311544786973,
+      "equity": 934.0927876722566,
+      "unrealizedPnl": -15.23836680644069,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165682452,
+      "balance": 949.3311544786973,
+      "equity": 933.6959552033388,
+      "unrealizedPnl": -15.63519927535842,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165692452,
+      "balance": 949.3311544786973,
+      "equity": 933.5223409981874,
+      "unrealizedPnl": -15.808813480509928,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165702454,
+      "balance": 949.3311544786973,
+      "equity": 934.5590658232346,
+      "unrealizedPnl": -14.772088655462648,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165712455,
+      "balance": 949.3311544786973,
+      "equity": 934.5640262290964,
+      "unrealizedPnl": -14.767128249600887,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165722456,
+      "balance": 949.3311544786973,
+      "equity": 934.5640262290964,
+      "unrealizedPnl": -14.767128249600887,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165732457,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165742458,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165752459,
+      "balance": 949.3311544786973,
+      "equity": 935.2733642672863,
+      "unrealizedPnl": -14.057790211411021,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165762460,
+      "balance": 949.3311544786973,
+      "equity": 935.0402251917973,
+      "unrealizedPnl": -14.290929286900043,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165772461,
+      "balance": 949.3311544786973,
+      "equity": 935.0352647859362,
+      "unrealizedPnl": -14.29588969276108,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165782462,
+      "balance": 949.3311544786973,
+      "equity": 935.0352647859362,
+      "unrealizedPnl": -14.29588969276108,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165792463,
+      "balance": 949.3311544786973,
+      "equity": 934.583867852542,
+      "unrealizedPnl": -14.747286626155288,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165802463,
+      "balance": 949.3311544786973,
+      "equity": 934.5888282584037,
+      "unrealizedPnl": -14.742326220293528,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165812465,
+      "balance": 949.3311544786973,
+      "equity": 934.6731551580486,
+      "unrealizedPnl": -14.657999320648655,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165822465,
+      "balance": 949.3311544786973,
+      "equity": 934.6781155639096,
+      "unrealizedPnl": -14.653038914787615,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165832465,
+      "balance": 949.3311544786973,
+      "equity": 934.6781155639096,
+      "unrealizedPnl": -14.653038914787615,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165842467,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165852467,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165862469,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165872470,
+      "balance": 949.3311544786973,
+      "equity": 934.6830759697714,
+      "unrealizedPnl": -14.648078508925854,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165882470,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165892471,
+      "balance": 949.3311544786973,
+      "equity": 934.9707795097369,
+      "unrealizedPnl": -14.360374968960356,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165902473,
+      "balance": 949.3311544786973,
+      "equity": 934.9658191038751,
+      "unrealizedPnl": -14.365335374822116,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165912474,
+      "balance": 949.3311544786973,
+      "equity": 934.008460772611,
+      "unrealizedPnl": -15.322693706086284,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165922475,
+      "balance": 949.3311544786973,
+      "equity": 933.6711531740315,
+      "unrealizedPnl": -15.66000130466578,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165932475,
+      "balance": 949.3311544786973,
+      "equity": 933.5124201864638,
+      "unrealizedPnl": -15.818734292233446,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165942477,
+      "balance": 949.3311544786973,
+      "equity": 933.5124201864638,
+      "unrealizedPnl": -15.818734292233446,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165952478,
+      "balance": 949.3311544786973,
+      "equity": 933.5074597806027,
+      "unrealizedPnl": -15.823694698094487,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165962479,
+      "balance": 949.3311544786973,
+      "equity": 933.5124201864638,
+      "unrealizedPnl": -15.818734292233446,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165972480,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165982481,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779165992482,
+      "balance": 949.3311544786973,
+      "equity": 933.849727785044,
+      "unrealizedPnl": -15.481426693653233,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166002483,
+      "balance": 949.3311544786973,
+      "equity": 934.5789074466802,
+      "unrealizedPnl": -14.75224703201705,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166012484,
+      "balance": 949.3311544786973,
+      "equity": 934.8715713925075,
+      "unrealizedPnl": -14.45958308618979,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166022485,
+      "balance": 949.3311544786973,
+      "equity": 935.0699876269664,
+      "unrealizedPnl": -14.261166851730923,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166032486,
+      "balance": 949.3311544786973,
+      "equity": 935.3279287317628,
+      "unrealizedPnl": -14.003225746934543,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166042487,
+      "balance": 949.3311544786973,
+      "equity": 934.891413015953,
+      "unrealizedPnl": -14.439741462744191,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166052488,
+      "balance": 949.3311544786973,
+      "equity": 935.1245520914421,
+      "unrealizedPnl": -14.20660238725517,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166062489,
+      "balance": 949.3311544786973,
+      "equity": 935.4717805017451,
+      "unrealizedPnl": -13.859373976952156,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166072491,
+      "balance": 949.3311544786973,
+      "equity": 934.1374313250095,
+      "unrealizedPnl": -15.193723153687733,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166082492,
+      "balance": 949.3311544786973,
+      "equity": 934.3606495887758,
+      "unrealizedPnl": -14.970504889921509,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166092493,
+      "balance": 949.3311544786973,
+      "equity": 934.658273940464,
+      "unrealizedPnl": -14.672880538233214,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166102494,
+      "balance": 949.3311544786973,
+      "equity": 934.891413015953,
+      "unrealizedPnl": -14.439741462744191,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166112494,
+      "balance": 949.3311544786973,
+      "equity": 934.891413015953,
+      "unrealizedPnl": -14.439741462744191,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166122495,
+      "balance": 949.3311544786973,
+      "equity": 934.583867852542,
+      "unrealizedPnl": -14.747286626155288,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166132496,
+      "balance": 949.3311544786973,
+      "equity": 933.7157968267844,
+      "unrealizedPnl": -15.615357651912824,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166142498,
+      "balance": 949.3311544786973,
+      "equity": 933.7108364209226,
+      "unrealizedPnl": -15.620318057774584,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166152499,
+      "balance": 949.3311544786973,
+      "equity": 933.9390150905507,
+      "unrealizedPnl": -15.3921393881466,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166162500,
+      "balance": 949.3311544786973,
+      "equity": 933.9092526553816,
+      "unrealizedPnl": -15.421901823315718,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166172500,
+      "balance": 949.3311544786973,
+      "equity": 933.7207572326462,
+      "unrealizedPnl": -15.610397246051063,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166182500,
+      "balance": 949.3311544786973,
+      "equity": 933.7257176385073,
+      "unrealizedPnl": -15.605436840190023,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166192501,
+      "balance": 949.3311544786973,
+      "equity": 933.5917866802477,
+      "unrealizedPnl": -15.739367798449614,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166202503,
+      "balance": 949.3311544786973,
+      "equity": 933.844767379183,
+      "unrealizedPnl": -15.486387099514273,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166212503,
+      "balance": 949.3311544786973,
+      "equity": 934.2217582246544,
+      "unrealizedPnl": -15.10939625404286,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166222504,
+      "balance": 949.3311544786973,
+      "equity": 934.3408079653302,
+      "unrealizedPnl": -14.990346513367108,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166232504,
+      "balance": 949.3311544786973,
+      "equity": 935.0749480328274,
+      "unrealizedPnl": -14.256206445869884,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166242506,
+      "balance": 949.3311544786973,
+      "equity": 935.0749480328274,
+      "unrealizedPnl": -14.256206445869884,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166252449,
+      "balance": 949.3311544786973,
+      "equity": 935.0749480328274,
+      "unrealizedPnl": -14.256206445869884,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166262451,
+      "balance": 949.3311544786973,
+      "equity": 935.0749480328274,
+      "unrealizedPnl": -14.256206445869884,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166272451,
+      "balance": 949.3311544786973,
+      "equity": 935.0848688445509,
+      "unrealizedPnl": -14.246285634146366,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166282452,
+      "balance": 949.3311544786973,
+      "equity": 934.5888282584037,
+      "unrealizedPnl": -14.742326220293528,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166292454,
+      "balance": 949.3311544786973,
+      "equity": 933.2147958347755,
+      "unrealizedPnl": -16.116358643921746,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166302455,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166312456,
+      "balance": 949.3311544786973,
+      "equity": 933.3735288223432,
+      "unrealizedPnl": -15.957625656354077,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166322456,
+      "balance": 949.3311544786973,
+      "equity": 932.3368039972952,
+      "unrealizedPnl": -16.994350481402076,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166332458,
+      "balance": 949.3311544786973,
+      "equity": 932.1036649218062,
+      "unrealizedPnl": -17.2274895568911,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166342459,
+      "balance": 949.3311544786973,
+      "equity": 932.1086253276679,
+      "unrealizedPnl": -17.22252915102934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166352459,
+      "balance": 949.3311544786973,
+      "equity": 932.6294679431224,
+      "unrealizedPnl": -16.701686535574822,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166362461,
+      "balance": 949.3311544786973,
+      "equity": 932.6096263196762,
+      "unrealizedPnl": -16.72152815902114,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166372462,
+      "balance": 949.3311544786973,
+      "equity": 933.3636080106197,
+      "unrealizedPnl": -15.967546468077597,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166382462,
+      "balance": 949.3311544786973,
+      "equity": 933.4776973454336,
+      "unrealizedPnl": -15.853457133263605,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166392462,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166402462,
+      "balance": 949.3311544786973,
+      "equity": 933.0312608179012,
+      "unrealizedPnl": -16.29989366079605,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166412462,
+      "balance": 949.3311544786973,
+      "equity": 933.0312608179012,
+      "unrealizedPnl": -16.29989366079605,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166422463,
+      "balance": 949.3311544786973,
+      "equity": 933.0362212237629,
+      "unrealizedPnl": -16.29493325493429,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166432464,
+      "balance": 949.3311544786973,
+      "equity": 933.0312608179012,
+      "unrealizedPnl": -16.29989366079605,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166442465,
+      "balance": 949.3311544786973,
+      "equity": 932.2673583152349,
+      "unrealizedPnl": -17.063796163462392,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166452465,
+      "balance": 949.3311544786973,
+      "equity": 932.1086253276679,
+      "unrealizedPnl": -17.22252915102934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166462466,
+      "balance": 949.3311544786973,
+      "equity": 933.0312608179012,
+      "unrealizedPnl": -16.29989366079605,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166472467,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166482468,
+      "balance": 949.3311544786973,
+      "equity": 932.4012892734945,
+      "unrealizedPnl": -16.929865205202802,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166492470,
+      "balance": 949.3311544786973,
+      "equity": 932.5501014493386,
+      "unrealizedPnl": -16.781053029358656,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166502470,
+      "balance": 949.3311544786973,
+      "equity": 932.7187552486283,
+      "unrealizedPnl": -16.61239923006891,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166512471,
+      "balance": 949.3311544786973,
+      "equity": 932.7237156544901,
+      "unrealizedPnl": -16.607438824207147,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166522472,
+      "balance": 949.3311544786973,
+      "equity": 932.5600222610614,
+      "unrealizedPnl": -16.771132217635856,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166532473,
+      "balance": 949.3311544786973,
+      "equity": 932.5550618552004,
+      "unrealizedPnl": -16.776092623496893,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166542473,
+      "balance": 949.3311544786973,
+      "equity": 933.0709440647931,
+      "unrealizedPnl": -16.260210413904133,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166552475,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166562475,
+      "balance": 949.3311544786973,
+      "equity": 933.0907856882387,
+      "unrealizedPnl": -16.240368790458536,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166572476,
+      "balance": 949.3311544786973,
+      "equity": 932.3169623738496,
+      "unrealizedPnl": -17.014192104847677,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166582477,
+      "balance": 949.3311544786973,
+      "equity": 932.0094172104385,
+      "unrealizedPnl": -17.321737268258772,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166592478,
+      "balance": 949.3311544786973,
+      "equity": 932.0044568045768,
+      "unrealizedPnl": -17.326697674120535,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166602479,
+      "balance": 949.3311544786973,
+      "equity": 931.6671492059966,
+      "unrealizedPnl": -17.664005272700745,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166612480,
+      "balance": 949.3311544786973,
+      "equity": 931.6671492059966,
+      "unrealizedPnl": -17.664005272700745,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166622481,
+      "balance": 949.3311544786973,
+      "equity": 932.3120019679878,
+      "unrealizedPnl": -17.019152510709436,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166632482,
+      "balance": 949.3311544786973,
+      "equity": 932.5054577965857,
+      "unrealizedPnl": -16.825696682111612,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166642483,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166652483,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166662484,
+      "balance": 949.3311544786973,
+      "equity": 933.0858252823778,
+      "unrealizedPnl": -16.245329196319574,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166672485,
+      "balance": 949.3311544786973,
+      "equity": 933.2941623285593,
+      "unrealizedPnl": -16.03699215013791,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166682486,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166692487,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166702487,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166712489,
+      "balance": 949.3311544786973,
+      "equity": 933.2941623285593,
+      "unrealizedPnl": -16.03699215013791,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166722490,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166732491,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166742492,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166752492,
+      "balance": 949.3311544786973,
+      "equity": 933.2892019226977,
+      "unrealizedPnl": -16.04195255599967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166762492,
+      "balance": 949.3311544786973,
+      "equity": 932.7733197131048,
+      "unrealizedPnl": -16.557834765592432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166772493,
+      "balance": 949.3311544786973,
+      "equity": 932.7733197131048,
+      "unrealizedPnl": -16.557834765592432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166782495,
+      "balance": 949.3311544786973,
+      "equity": 932.5997055079533,
+      "unrealizedPnl": -16.731448970743937,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166792496,
+      "balance": 949.3311544786973,
+      "equity": 932.6046659138151,
+      "unrealizedPnl": -16.726488564882178,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166802497,
+      "balance": 949.3311544786973,
+      "equity": 932.2475166917885,
+      "unrealizedPnl": -17.08363778690871,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166812498,
+      "balance": 949.3311544786973,
+      "equity": 931.7613969173649,
+      "unrealizedPnl": -17.569757561332356,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166822498,
+      "balance": 949.3311544786973,
+      "equity": 932.4112100852172,
+      "unrealizedPnl": -16.919944393480005,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166832499,
+      "balance": 949.3311544786973,
+      "equity": 932.4062496793563,
+      "unrealizedPnl": -16.924904799341043,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166842500,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166852501,
+      "balance": 949.3311544786973,
+      "equity": 933.0511024413476,
+      "unrealizedPnl": -16.28005203734973,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166862502,
+      "balance": 949.3311544786973,
+      "equity": 933.0461420354858,
+      "unrealizedPnl": -16.285012443211492,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166872502,
+      "balance": 949.3311544786973,
+      "equity": 933.0362212237629,
+      "unrealizedPnl": -16.29493325493429,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166882503,
+      "balance": 949.3311544786973,
+      "equity": 933.041181629624,
+      "unrealizedPnl": -16.28997284907325,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166892504,
+      "balance": 949.3311544786973,
+      "equity": 933.2941623285593,
+      "unrealizedPnl": -16.03699215013791,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166902505,
+      "balance": 949.3311544786973,
+      "equity": 933.041181629624,
+      "unrealizedPnl": -16.28997284907325,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166912506,
+      "balance": 949.3311544786973,
+      "equity": 933.041181629624,
+      "unrealizedPnl": -16.28997284907325,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166922508,
+      "balance": 949.3311544786973,
+      "equity": 933.6909947974771,
+      "unrealizedPnl": -15.640159681220181,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166932509,
+      "balance": 949.3311544786973,
+      "equity": 933.775321697122,
+      "unrealizedPnl": -15.555832781575308,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166942509,
+      "balance": 949.3311544786973,
+      "equity": 933.775321697122,
+      "unrealizedPnl": -15.555832781575308,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166952510,
+      "balance": 949.3311544786973,
+      "equity": 933.5173805923256,
+      "unrealizedPnl": -15.813773886371688,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166962511,
+      "balance": 949.3311544786973,
+      "equity": 933.5124201864638,
+      "unrealizedPnl": -15.818734292233446,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166972513,
+      "balance": 949.3311544786973,
+      "equity": 933.5124201864638,
+      "unrealizedPnl": -15.818734292233446,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166982513,
+      "balance": 949.3311544786973,
+      "equity": 933.7703612912609,
+      "unrealizedPnl": -15.560793187436346,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779166992514,
+      "balance": 949.3311544786973,
+      "equity": 935.4370576607149,
+      "unrealizedPnl": -13.894096817982312,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167002515,
+      "balance": 949.3311544786973,
+      "equity": 935.1195916855811,
+      "unrealizedPnl": -14.211562793116206,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167012515,
+      "balance": 949.3311544786973,
+      "equity": 935.1195916855811,
+      "unrealizedPnl": -14.211562793116206,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167022515,
+      "balance": 949.3311544786973,
+      "equity": 934.7674028694163,
+      "unrealizedPnl": -14.563751609280981,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167032516,
+      "balance": 949.3311544786973,
+      "equity": 934.5888282584037,
+      "unrealizedPnl": -14.742326220293528,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167042517,
+      "balance": 949.3311544786973,
+      "equity": 934.2713622832691,
+      "unrealizedPnl": -15.059792195428143,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167052518,
+      "balance": 949.3311544786973,
+      "equity": 933.6810739857543,
+      "unrealizedPnl": -15.65008049294298,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167062519,
+      "balance": 949.3311544786973,
+      "equity": 933.0511024413476,
+      "unrealizedPnl": -16.28005203734973,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167072519,
+      "balance": 949.3311544786973,
+      "equity": 932.9965379768711,
+      "unrealizedPnl": -16.334616501826208,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167082520,
+      "balance": 949.3311544786973,
+      "equity": 933.0014983827328,
+      "unrealizedPnl": -16.32965609596445,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167092522,
+      "balance": 949.3311544786973,
+      "equity": 932.9965379768711,
+      "unrealizedPnl": -16.334616501826208,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167102522,
+      "balance": 949.3311544786973,
+      "equity": 933.5273014040483,
+      "unrealizedPnl": -15.803853074648888,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167112523,
+      "balance": 949.3311544786973,
+      "equity": 933.5273014040483,
+      "unrealizedPnl": -15.803853074648888,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167122523,
+      "balance": 949.3311544786973,
+      "equity": 933.9390150905507,
+      "unrealizedPnl": -15.3921393881466,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167132524,
+      "balance": 949.3311544786973,
+      "equity": 933.542182621633,
+      "unrealizedPnl": -15.78897185706433,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167142525,
+      "balance": 949.3311544786973,
+      "equity": 933.224716646499,
+      "unrealizedPnl": -16.106437832198225,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167152526,
+      "balance": 949.3311544786973,
+      "equity": 933.7554800736764,
+      "unrealizedPnl": -15.575674405020903,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167162527,
+      "balance": 949.3311544786973,
+      "equity": 934.8963734218148,
+      "unrealizedPnl": -14.43478105688243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167172528,
+      "balance": 949.3311544786973,
+      "equity": 934.891413015953,
+      "unrealizedPnl": -14.439741462744191,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167182529,
+      "balance": 949.3311544786973,
+      "equity": 934.8963734218148,
+      "unrealizedPnl": -14.43478105688243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167192529,
+      "balance": 949.3311544786973,
+      "equity": 935.3180079200399,
+      "unrealizedPnl": -14.013146558657342,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167202530,
+      "balance": 949.3311544786973,
+      "equity": 934.6880363756331,
+      "unrealizedPnl": -14.643118103064094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167212531,
+      "balance": 949.3311544786973,
+      "equity": 934.4052932415287,
+      "unrealizedPnl": -14.925861237168556,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167222532,
+      "balance": 949.3311544786973,
+      "equity": 934.2961643125765,
+      "unrealizedPnl": -15.034990166120787,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167232534,
+      "balance": 949.3311544786973,
+      "equity": 933.6513115505852,
+      "unrealizedPnl": -15.679842928112098,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167242535,
+      "balance": 949.3311544786973,
+      "equity": 933.4479349102653,
+      "unrealizedPnl": -15.883219568432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167252535,
+      "balance": 949.3311544786973,
+      "equity": 933.8298861615984,
+      "unrealizedPnl": -15.50126831709883,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167262536,
+      "balance": 949.3311544786973,
+      "equity": 933.1999146171917,
+      "unrealizedPnl": -16.131239861505584,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167272538,
+      "balance": 949.3311544786973,
+      "equity": 933.1999146171917,
+      "unrealizedPnl": -16.131239861505584,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167282539,
+      "balance": 949.3311544786973,
+      "equity": 934.3705704004985,
+      "unrealizedPnl": -14.960584078198712,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167292540,
+      "balance": 949.3311544786973,
+      "equity": 934.8219673338928,
+      "unrealizedPnl": -14.509187144804507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167302541,
+      "balance": 949.3311544786973,
+      "equity": 934.8219673338928,
+      "unrealizedPnl": -14.509187144804507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167312542,
+      "balance": 949.3311544786973,
+      "equity": 934.856690174923,
+      "unrealizedPnl": -14.474464303774347,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167322543,
+      "balance": 949.3311544786973,
+      "equity": 934.856690174923,
+      "unrealizedPnl": -14.474464303774347,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167332544,
+      "balance": 949.3311544786973,
+      "equity": 933.3735288223432,
+      "unrealizedPnl": -15.957625656354077,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167342545,
+      "balance": 949.3311544786973,
+      "equity": 933.2048750230528,
+      "unrealizedPnl": -16.126279455644543,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167352546,
+      "balance": 949.3311544786973,
+      "equity": 933.0014983827328,
+      "unrealizedPnl": -16.32965609596445,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167362548,
+      "balance": 949.3311544786973,
+      "equity": 933.0064587885938,
+      "unrealizedPnl": -16.324695690103407,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167372549,
+      "balance": 949.3311544786973,
+      "equity": 933.0064587885938,
+      "unrealizedPnl": -16.324695690103407,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167382549,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167392551,
+      "balance": 949.3311544786973,
+      "equity": 932.922131888949,
+      "unrealizedPnl": -16.409022589748282,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167402552,
+      "balance": 949.3311544786973,
+      "equity": 932.8229237717195,
+      "unrealizedPnl": -16.508230706977717,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167412553,
+      "balance": 949.3311544786973,
+      "equity": 932.5848242903687,
+      "unrealizedPnl": -16.7463301883285,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167422552,
+      "balance": 949.3311544786973,
+      "equity": 932.68899281346,
+      "unrealizedPnl": -16.642161665237303,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167432553,
+      "balance": 949.3311544786973,
+      "equity": 934.583867852542,
+      "unrealizedPnl": -14.747286626155288,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167442553,
+      "balance": 949.3311544786973,
+      "equity": 934.5789074466802,
+      "unrealizedPnl": -14.75224703201705,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167452554,
+      "balance": 949.3311544786973,
+      "equity": 933.4479349102653,
+      "unrealizedPnl": -15.883219568432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167462555,
+      "balance": 949.3311544786973,
+      "equity": 933.3437663871741,
+      "unrealizedPnl": -15.987388091523195,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167472556,
+      "balance": 949.3311544786973,
+      "equity": 933.3437663871741,
+      "unrealizedPnl": -15.987388091523195,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167482557,
+      "balance": 949.3311544786973,
+      "equity": 933.3487267930359,
+      "unrealizedPnl": -15.982427685661435,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167492558,
+      "balance": 949.3311544786973,
+      "equity": 933.6711531740315,
+      "unrealizedPnl": -15.66000130466578,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167502559,
+      "balance": 949.3311544786973,
+      "equity": 934.2019166012088,
+      "unrealizedPnl": -15.129237877488459,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167512559,
+      "balance": 949.3311544786973,
+      "equity": 934.1969561953471,
+      "unrealizedPnl": -15.13419828335022,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167522560,
+      "balance": 949.3311544786973,
+      "equity": 934.0779064546721,
+      "unrealizedPnl": -15.253248024025249,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167532560,
+      "balance": 949.3311544786973,
+      "equity": 934.0779064546721,
+      "unrealizedPnl": -15.253248024025249,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167542561,
+      "balance": 949.3311544786973,
+      "equity": 934.3854516180832,
+      "unrealizedPnl": -14.945702860614155,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167552561,
+      "balance": 949.3311544786973,
+      "equity": 934.0977480781177,
+      "unrealizedPnl": -15.23340640057965,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167562563,
+      "balance": 949.3311544786973,
+      "equity": 934.3656099946376,
+      "unrealizedPnl": -14.965544484059752,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167572564,
+      "balance": 949.3311544786973,
+      "equity": 934.697957187356,
+      "unrealizedPnl": -14.633197291341297,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167582565,
+      "balance": 949.3311544786973,
+      "equity": 934.3854516180832,
+      "unrealizedPnl": -14.945702860614155,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167592566,
+      "balance": 949.3311544786973,
+      "equity": 934.7773236811391,
+      "unrealizedPnl": -14.553830797558184,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167602566,
+      "balance": 949.3311544786973,
+      "equity": 934.3308871536067,
+      "unrealizedPnl": -15.000267325090629,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167612567,
+      "balance": 949.3311544786973,
+      "equity": 933.3487267930359,
+      "unrealizedPnl": -15.982427685661435,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167622569,
+      "balance": 949.3311544786973,
+      "equity": 934.4102536473905,
+      "unrealizedPnl": -14.920900831306795,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167632569,
+      "balance": 949.3311544786973,
+      "equity": 934.3408079653302,
+      "unrealizedPnl": -14.990346513367108,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167642570,
+      "balance": 949.3311544786973,
+      "equity": 935.0749480328274,
+      "unrealizedPnl": -14.256206445869884,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167652570,
+      "balance": 949.3311544786973,
+      "equity": 935.4817013134686,
+      "unrealizedPnl": -13.849453165228635,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167662571,
+      "balance": 949.3311544786973,
+      "equity": 936.8358921136498,
+      "unrealizedPnl": -12.495262365047457,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167672572,
+      "balance": 949.3311544786973,
+      "equity": 936.5630697912688,
+      "unrealizedPnl": -12.768084687428397,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167682573,
+      "balance": 949.3311544786973,
+      "equity": 935.6553155186201,
+      "unrealizedPnl": -13.675838960077128,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167692573,
+      "balance": 949.3311544786973,
+      "equity": 935.6553155186201,
+      "unrealizedPnl": -13.675838960077128,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167702575,
+      "balance": 949.3311544786973,
+      "equity": 935.4717805017451,
+      "unrealizedPnl": -13.859373976952156,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167712575,
+      "balance": 949.3311544786973,
+      "equity": 935.6949987655113,
+      "unrealizedPnl": -13.636155713185932,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167722576,
+      "balance": 949.3311544786973,
+      "equity": 935.8785337823864,
+      "unrealizedPnl": -13.452620696310904,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167732577,
+      "balance": 949.3311544786973,
+      "equity": 935.4568992841613,
+      "unrealizedPnl": -13.874255194535994,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167742579,
+      "balance": 949.3311544786973,
+      "equity": 936.2158413809659,
+      "unrealizedPnl": -13.115313097731411,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167752579,
+      "balance": 949.3311544786973,
+      "equity": 936.2108809751048,
+      "unrealizedPnl": -13.12027350359245,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167762580,
+      "balance": 949.3311544786973,
+      "equity": 936.8606941429572,
+      "unrealizedPnl": -12.4704603357401,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167772582,
+      "balance": 949.3311544786973,
+      "equity": 938.2297661607237,
+      "unrealizedPnl": -11.101388317973642,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167782583,
+      "balance": 949.3311544786973,
+      "equity": 937.6097154280396,
+      "unrealizedPnl": -11.721439050657596,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167792584,
+      "balance": 949.3311544786973,
+      "equity": 937.6146758339014,
+      "unrealizedPnl": -11.716478644795835,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167802584,
+      "balance": 949.3311544786973,
+      "equity": 937.6196362397625,
+      "unrealizedPnl": -11.711518238934797,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167812585,
+      "balance": 949.3311544786973,
+      "equity": 937.0839124067234,
+      "unrealizedPnl": -12.247242071973877,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167822586,
+      "balance": 949.3311544786973,
+      "equity": 938.0164687086802,
+      "unrealizedPnl": -11.314685770017068,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167832587,
+      "balance": 949.3311544786973,
+      "equity": 938.0164687086802,
+      "unrealizedPnl": -11.314685770017068,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167842587,
+      "balance": 949.3311544786973,
+      "equity": 938.557152947581,
+      "unrealizedPnl": -10.774001531116227,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167852588,
+      "balance": 949.3311544786973,
+      "equity": 938.8200544582385,
+      "unrealizedPnl": -10.511100020458809,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167862588,
+      "balance": 949.3311544786973,
+      "equity": 938.834935675823,
+      "unrealizedPnl": -10.496218802874248,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167872589,
+      "balance": 949.3311544786973,
+      "equity": 939.2516097681871,
+      "unrealizedPnl": -10.079544710510199,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167882589,
+      "balance": 949.3311544786973,
+      "equity": 939.0135102868363,
+      "unrealizedPnl": -10.317644191860982,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167892590,
+      "balance": 949.3311544786973,
+      "equity": 938.5472321358575,
+      "unrealizedPnl": -10.783922342839748,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167902591,
+      "balance": 949.3311544786973,
+      "equity": 938.5521925417193,
+      "unrealizedPnl": -10.778961936977987,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167912592,
+      "balance": 949.3311544786973,
+      "equity": 939.0234310985591,
+      "unrealizedPnl": -10.307723380138182,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167922592,
+      "balance": 949.3311544786973,
+      "equity": 939.0035894751135,
+      "unrealizedPnl": -10.32756500358378,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167932592,
+      "balance": 949.3311544786973,
+      "equity": 939.0035894751135,
+      "unrealizedPnl": -10.32756500358378,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167942593,
+      "balance": 949.3311544786973,
+      "equity": 938.9986290692517,
+      "unrealizedPnl": -10.332525409445541,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167952594,
+      "balance": 949.3311544786973,
+      "equity": 939.0184706926973,
+      "unrealizedPnl": -10.312683785999942,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167962594,
+      "balance": 949.3311544786973,
+      "equity": 940.4371467690785,
+      "unrealizedPnl": -8.89400770961877,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167972595,
+      "balance": 949.3311544786973,
+      "equity": 940.1940868818667,
+      "unrealizedPnl": -9.13706759683059,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167982596,
+      "balance": 949.3311544786973,
+      "equity": 940.2040076935895,
+      "unrealizedPnl": -9.127146785107792,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779167992596,
+      "balance": 949.3311544786973,
+      "equity": 941.032395472455,
+      "unrealizedPnl": -8.298759006242175,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168002596,
+      "balance": 949.3311544786973,
+      "equity": 941.0274350665933,
+      "unrealizedPnl": -8.303719412103934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168012597,
+      "balance": 949.3311544786973,
+      "equity": 940.7645335559359,
+      "unrealizedPnl": -8.566620922761354,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168022598,
+      "balance": 949.3311544786973,
+      "equity": 940.8240584262734,
+      "unrealizedPnl": -8.507096052423838,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168032598,
+      "balance": 949.3311544786973,
+      "equity": 941.0274350665933,
+      "unrealizedPnl": -8.303719412103934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168042599,
+      "balance": 949.3311544786973,
+      "equity": 940.7893355852433,
+      "unrealizedPnl": -8.541818893453994,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168052600,
+      "balance": 949.3311544786973,
+      "equity": 941.032395472455,
+      "unrealizedPnl": -8.298759006242175,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168062601,
+      "balance": 949.3311544786973,
+      "equity": 941.0274350665933,
+      "unrealizedPnl": -8.303719412103934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168072602,
+      "balance": 949.3311544786973,
+      "equity": 941.5284360586022,
+      "unrealizedPnl": -7.802718420095012,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168082603,
+      "balance": 949.3311544786973,
+      "equity": 941.9847933978575,
+      "unrealizedPnl": -7.346361080839766,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168092604,
+      "balance": 949.3311544786973,
+      "equity": 941.5383568703251,
+      "unrealizedPnl": -7.792797608372212,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168102605,
+      "balance": 949.3311544786973,
+      "equity": 942.8280623943077,
+      "unrealizedPnl": -6.50309208438959,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168112607,
+      "balance": 949.3311544786973,
+      "equity": 942.3518634316068,
+      "unrealizedPnl": -6.979291047090434,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168122607,
+      "balance": 949.3311544786973,
+      "equity": 942.8280623943077,
+      "unrealizedPnl": -6.50309208438959,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168132606,
+      "balance": 949.3311544786973,
+      "equity": 942.8231019884466,
+      "unrealizedPnl": -6.508052490250628,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168142607,
+      "balance": 949.3311544786973,
+      "equity": 942.8280623943077,
+      "unrealizedPnl": -6.50309208438959,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168152608,
+      "balance": 949.3311544786973,
+      "equity": 941.6772482344464,
+      "unrealizedPnl": -7.653906244250863,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168162609,
+      "balance": 949.3311544786973,
+      "equity": 942.4510715488362,
+      "unrealizedPnl": -6.8800829298610005,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168172610,
+      "balance": 949.3311544786973,
+      "equity": 941.6722878285847,
+      "unrealizedPnl": -7.658866650112624,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168182611,
+      "balance": 949.3311544786973,
+      "equity": 941.6772482344464,
+      "unrealizedPnl": -7.653906244250863,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168192612,
+      "balance": 949.3311544786973,
+      "equity": 942.0244766447494,
+      "unrealizedPnl": -7.306677833947849,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168202613,
+      "balance": 949.3311544786973,
+      "equity": 942.8181415825849,
+      "unrealizedPnl": -6.5130128961123885,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168212614,
+      "balance": 949.3311544786973,
+      "equity": 942.8181415825849,
+      "unrealizedPnl": -6.5130128961123885,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168222614,
+      "balance": 949.3311544786973,
+      "equity": 945.204096801953,
+      "unrealizedPnl": -4.127057676744248,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168232615,
+      "balance": 949.3311544786973,
+      "equity": 945.4669983126105,
+      "unrealizedPnl": -3.8641561660868295,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168242616,
+      "balance": 949.3311544786973,
+      "equity": 946.2656236563076,
+      "unrealizedPnl": -3.065530822389609,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168252617,
+      "balance": 949.3311544786973,
+      "equity": 946.3053069031996,
+      "unrealizedPnl": -3.025847575497692,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168262618,
+      "balance": 949.3311544786973,
+      "equity": 946.0076825515113,
+      "unrealizedPnl": -3.3234719271859894,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168272619,
+      "balance": 949.3311544786973,
+      "equity": 944.9163932619875,
+      "unrealizedPnl": -4.4147612167097465,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168282620,
+      "balance": 949.3311544786973,
+      "equity": 945.015601379217,
+      "unrealizedPnl": -4.315553099480314,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168292622,
+      "balance": 949.3311544786973,
+      "equity": 944.400511052394,
+      "unrealizedPnl": -4.930643426303229,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168302622,
+      "balance": 949.3311544786973,
+      "equity": 945.4967607477796,
+      "unrealizedPnl": -3.834393730917711,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168312622,
+      "balance": 949.3311544786973,
+      "equity": 944.8717496092338,
+      "unrealizedPnl": -4.459404869463425,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168322624,
+      "balance": 949.3311544786973,
+      "equity": 944.0086389893381,
+      "unrealizedPnl": -5.322515489359199,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168332624,
+      "balance": 949.3311544786973,
+      "equity": 942.6693294067408,
+      "unrealizedPnl": -6.661825071956538,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168342626,
+      "balance": 949.3311544786973,
+      "equity": 942.9867953818747,
+      "unrealizedPnl": -6.344359096822642,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168352626,
+      "balance": 949.3311544786973,
+      "equity": 942.1782492264554,
+      "unrealizedPnl": -7.15290525224194,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168362627,
+      "balance": 949.3311544786973,
+      "equity": 942.664369000879,
+      "unrealizedPnl": -6.666785477818298,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168372628,
+      "balance": 949.3311544786973,
+      "equity": 943.0165578170438,
+      "unrealizedPnl": -6.314596661653524,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168382628,
+      "balance": 949.3311544786973,
+      "equity": 942.317140590576,
+      "unrealizedPnl": -7.014013888121312,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168392630,
+      "balance": 949.3311544786973,
+      "equity": 942.7090126536326,
+      "unrealizedPnl": -6.62214182506462,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168402630,
+      "balance": 949.3311544786973,
+      "equity": 943.2794593277019,
+      "unrealizedPnl": -6.051695150995384,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168412631,
+      "balance": 949.3311544786973,
+      "equity": 943.4629943445761,
+      "unrealizedPnl": -5.868160134121077,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168422631,
+      "balance": 949.3311544786973,
+      "equity": 943.120726340135,
+      "unrealizedPnl": -6.210428138562331,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168432632,
+      "balance": 949.3311544786973,
+      "equity": 942.4213091136671,
+      "unrealizedPnl": -6.909845365030118,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168442634,
+      "balance": 949.3311544786973,
+      "equity": 943.0016765994592,
+      "unrealizedPnl": -6.329477879238083,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168452634,
+      "balance": 949.3311544786973,
+      "equity": 942.9967161935981,
+      "unrealizedPnl": -6.334438285099122,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168462635,
+      "balance": 949.3311544786973,
+      "equity": 942.272496937823,
+      "unrealizedPnl": -7.058657540874268,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168472636,
+      "balance": 949.3311544786973,
+      "equity": 941.1365639955463,
+      "unrealizedPnl": -8.194590483150982,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168482637,
+      "balance": 949.3311544786973,
+      "equity": 939.5442737140136,
+      "unrealizedPnl": -9.786880764683662,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168492639,
+      "balance": 949.3311544786973,
+      "equity": 938.3984199600134,
+      "unrealizedPnl": -10.932734518683896,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168502641,
+      "balance": 949.3311544786973,
+      "equity": 938.646440253087,
+      "unrealizedPnl": -10.684714225610316,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168512641,
+      "balance": 949.3311544786973,
+      "equity": 938.0561519555721,
+      "unrealizedPnl": -11.27500252312515,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168522642,
+      "balance": 949.3311544786973,
+      "equity": 937.9619042442044,
+      "unrealizedPnl": -11.36925023449282,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168532643,
+      "balance": 949.3311544786973,
+      "equity": 937.7982108507757,
+      "unrealizedPnl": -11.53294362792153,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168542644,
+      "balance": 949.3311544786973,
+      "equity": 938.3041722486457,
+      "unrealizedPnl": -11.026982230051567,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168552645,
+      "balance": 949.3311544786973,
+      "equity": 938.3984199600134,
+      "unrealizedPnl": -10.932734518683896,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168562645,
+      "balance": 949.3311544786973,
+      "equity": 938.0313499262647,
+      "unrealizedPnl": -11.299804552432509,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168572646,
+      "balance": 949.3311544786973,
+      "equity": 938.0363103321265,
+      "unrealizedPnl": -11.294844146570748,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168582647,
+      "balance": 949.3311544786973,
+      "equity": 937.7337255745765,
+      "unrealizedPnl": -11.597428904120806,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168592647,
+      "balance": 949.3311544786973,
+      "equity": 937.6593194866543,
+      "unrealizedPnl": -11.67183499204288,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168602648,
+      "balance": 949.3311544786973,
+      "equity": 938.3934595541523,
+      "unrealizedPnl": -10.937694924544934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168612650,
+      "balance": 949.3311544786973,
+      "equity": 939.0085498809746,
+      "unrealizedPnl": -10.32260459772274,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168622651,
+      "balance": 949.3311544786973,
+      "equity": 939.9857498356843,
+      "unrealizedPnl": -9.345404643012975,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168632651,
+      "balance": 949.3311544786973,
+      "equity": 940.0055914591306,
+      "unrealizedPnl": -9.325563019566657,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168642652,
+      "balance": 949.3311544786973,
+      "equity": 939.0482331278664,
+      "unrealizedPnl": -10.282921350830826,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168652652,
+      "balance": 949.3311544786973,
+      "equity": 937.2079225532602,
+      "unrealizedPnl": -12.123231925437086,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168662653,
+      "balance": 949.3311544786973,
+      "equity": 937.7783692273294,
+      "unrealizedPnl": -11.55278525136785,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168672655,
+      "balance": 949.3311544786973,
+      "equity": 937.2327245825676,
+      "unrealizedPnl": -12.098429896129728,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168682655,
+      "balance": 949.3311544786973,
+      "equity": 936.9747834777712,
+      "unrealizedPnl": -12.356371000926108,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168692656,
+      "balance": 949.3311544786973,
+      "equity": 937.5948342104551,
+      "unrealizedPnl": -11.736320268242155,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168702657,
+      "balance": 949.3311544786973,
+      "equity": 937.3914575701352,
+      "unrealizedPnl": -11.939696908562059,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168712658,
+      "balance": 949.3311544786973,
+      "equity": 937.5948342104551,
+      "unrealizedPnl": -11.736320268242155,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168722660,
+      "balance": 949.3311544786973,
+      "equity": 938.0561519555721,
+      "unrealizedPnl": -11.27500252312515,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168732660,
+      "balance": 949.3311544786973,
+      "equity": 937.0640707832778,
+      "unrealizedPnl": -12.267083695419474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168742661,
+      "balance": 949.3311544786973,
+      "equity": 936.3993763978409,
+      "unrealizedPnl": -12.931778080856382,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168752663,
+      "balance": 949.3311544786973,
+      "equity": 937.0045459129403,
+      "unrealizedPnl": -12.32660856575699,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168762662,
+      "balance": 949.3311544786973,
+      "equity": 936.5581093854079,
+      "unrealizedPnl": -12.773045093289436,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168772663,
+      "balance": 949.3311544786973,
+      "equity": 937.4906656873646,
+      "unrealizedPnl": -11.840488791332627,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168782665,
+      "balance": 949.3311544786973,
+      "equity": 937.1583184946454,
+      "unrealizedPnl": -12.172835984051803,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168792666,
+      "balance": 949.3311544786973,
+      "equity": 937.0640707832778,
+      "unrealizedPnl": -12.267083695419474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168802666,
+      "balance": 949.3311544786973,
+      "equity": 937.0839124067234,
+      "unrealizedPnl": -12.247242071973877,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168812667,
+      "balance": 949.3311544786973,
+      "equity": 937.0640707832778,
+      "unrealizedPnl": -12.267083695419474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168822668,
+      "balance": 949.3311544786973,
+      "equity": 936.5581093854079,
+      "unrealizedPnl": -12.773045093289436,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168832670,
+      "balance": 949.3311544786973,
+      "equity": 936.5581093854079,
+      "unrealizedPnl": -12.773045093289436,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168842671,
+      "balance": 949.3311544786973,
+      "equity": 936.5680301971306,
+      "unrealizedPnl": -12.763124281566638,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168852672,
+      "balance": 949.3311544786973,
+      "equity": 936.0719896109835,
+      "unrealizedPnl": -13.2591648677138,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168862672,
+      "balance": 949.3311544786973,
+      "equity": 935.5412261838062,
+      "unrealizedPnl": -13.789928294891121,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168872673,
+      "balance": 949.3311544786973,
+      "equity": 937.0690311891395,
+      "unrealizedPnl": -12.262123289557714,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168882674,
+      "balance": 949.3311544786973,
+      "equity": 936.9251794191564,
+      "unrealizedPnl": -12.405975059540824,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168892675,
+      "balance": 949.3311544786973,
+      "equity": 937.1930413356763,
+      "unrealizedPnl": -12.138113143020924,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168902676,
+      "balance": 949.3311544786973,
+      "equity": 938.0511915497103,
+      "unrealizedPnl": -11.27996292898691,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168912677,
+      "balance": 949.3311544786973,
+      "equity": 938.5521925417193,
+      "unrealizedPnl": -10.778961936977987,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168922679,
+      "balance": 949.3311544786973,
+      "equity": 938.949025010637,
+      "unrealizedPnl": -10.382129468060258,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168932679,
+      "balance": 949.3311544786973,
+      "equity": 938.9440646047752,
+      "unrealizedPnl": -10.387089873922017,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168942680,
+      "balance": 949.3311544786973,
+      "equity": 937.5402697459793,
+      "unrealizedPnl": -11.790884732717911,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168952681,
+      "balance": 949.3311544786973,
+      "equity": 936.6523570967755,
+      "unrealizedPnl": -12.678797381921765,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168962682,
+      "balance": 949.3311544786973,
+      "equity": 936.9450210426028,
+      "unrealizedPnl": -12.386133436094505,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168972684,
+      "balance": 949.3311544786973,
+      "equity": 936.36465355681,
+      "unrealizedPnl": -12.966500921887263,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168982684,
+      "balance": 949.3311544786973,
+      "equity": 936.3745743685336,
+      "unrealizedPnl": -12.956580110163742,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779168992684,
+      "balance": 949.3311544786973,
+      "equity": 936.0719896109835,
+      "unrealizedPnl": -13.2591648677138,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169002684,
+      "balance": 949.3311544786973,
+      "equity": 936.0719896109835,
+      "unrealizedPnl": -13.2591648677138,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169012685,
+      "balance": 949.3311544786973,
+      "equity": 935.8686129706629,
+      "unrealizedPnl": -13.462541508034425,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169022685,
+      "balance": 949.3311544786973,
+      "equity": 935.5858698365591,
+      "unrealizedPnl": -13.745284642138165,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169032685,
+      "balance": 949.3311544786973,
+      "equity": 934.2862435008537,
+      "unrealizedPnl": -15.044910977843585,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169042686,
+      "balance": 949.3311544786973,
+      "equity": 934.5640262290964,
+      "unrealizedPnl": -14.767128249600887,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169052687,
+      "balance": 949.3311544786973,
+      "equity": 934.6632343463258,
+      "unrealizedPnl": -14.667920132371453,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169062688,
+      "balance": 949.3311544786973,
+      "equity": 933.7902029147065,
+      "unrealizedPnl": -15.540951563990747,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169072689,
+      "balance": 949.3311544786973,
+      "equity": 933.2941623285593,
+      "unrealizedPnl": -16.03699215013791,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169082690,
+      "balance": 949.3311544786973,
+      "equity": 933.3983308516506,
+      "unrealizedPnl": -15.932823627046718,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169092691,
+      "balance": 949.3311544786973,
+      "equity": 933.1007064999623,
+      "unrealizedPnl": -16.230447978735015,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169102692,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169112692,
+      "balance": 949.3311544786973,
+      "equity": 931.7068324528884,
+      "unrealizedPnl": -17.62432202580883,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169122694,
+      "balance": 949.3311544786973,
+      "equity": 932.0044568045768,
+      "unrealizedPnl": -17.326697674120535,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169132754,
+      "balance": 949.3311544786973,
+      "equity": 933.0213400061784,
+      "unrealizedPnl": -16.309814472518852,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169142755,
+      "balance": 949.3311544786973,
+      "equity": 932.346724809018,
+      "unrealizedPnl": -16.98442966967928,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169152756,
+      "balance": 949.3311544786973,
+      "equity": 933.0114191944556,
+      "unrealizedPnl": -16.31973528424165,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169162756,
+      "balance": 949.3311544786973,
+      "equity": 932.346724809018,
+      "unrealizedPnl": -16.98442966967928,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169172758,
+      "balance": 949.3311544786973,
+      "equity": 932.341764403157,
+      "unrealizedPnl": -16.989390075540317,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169182760,
+      "balance": 949.3311544786973,
+      "equity": 932.4657745496937,
+      "unrealizedPnl": -16.865379929003527,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169192760,
+      "balance": 949.3311544786973,
+      "equity": 932.8576466127497,
+      "unrealizedPnl": -16.473507865947557,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169202761,
+      "balance": 949.3311544786973,
+      "equity": 933.2395978640828,
+      "unrealizedPnl": -16.091556614614387,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169212762,
+      "balance": 949.3311544786973,
+      "equity": 932.1086253276679,
+      "unrealizedPnl": -17.22252915102934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169222761,
+      "balance": 949.3311544786973,
+      "equity": 933.3288851695895,
+      "unrealizedPnl": -16.002269309107753,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169232763,
+      "balance": 949.3311544786973,
+      "equity": 932.5947451020916,
+      "unrealizedPnl": -16.736409376605696,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169242763,
+      "balance": 949.3311544786973,
+      "equity": 932.4905765790011,
+      "unrealizedPnl": -16.840577899696168,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169252765,
+      "balance": 949.3311544786973,
+      "equity": 932.4905765790011,
+      "unrealizedPnl": -16.840577899696168,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169262765,
+      "balance": 949.3311544786973,
+      "equity": 931.6125847415208,
+      "unrealizedPnl": -17.718569737176505,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169272765,
+      "balance": 949.3311544786973,
+      "equity": 932.0540608631915,
+      "unrealizedPnl": -17.277093615505816,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169282767,
+      "balance": 949.3311544786973,
+      "equity": 931.6621888001355,
+      "unrealizedPnl": -17.668965678561786,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169292768,
+      "balance": 949.3311544786973,
+      "equity": 931.6621888001355,
+      "unrealizedPnl": -17.668965678561786,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169302770,
+      "balance": 949.3311544786973,
+      "equity": 931.6671492059966,
+      "unrealizedPnl": -17.664005272700745,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169312770,
+      "balance": 949.3311544786973,
+      "equity": 931.1909502432957,
+      "unrealizedPnl": -18.14020423540159,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169322771,
+      "balance": 949.3311544786973,
+      "equity": 932.4012892734945,
+      "unrealizedPnl": -16.929865205202802,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169332771,
+      "balance": 949.3311544786973,
+      "equity": 932.3963288676327,
+      "unrealizedPnl": -16.934825611064564,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169342772,
+      "balance": 949.3311544786973,
+      "equity": 931.2008710550185,
+      "unrealizedPnl": -18.130283423678794,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169352774,
+      "balance": 949.3311544786973,
+      "equity": 930.1492650123866,
+      "unrealizedPnl": -19.181889466310633,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169362775,
+      "balance": 949.3311544786973,
+      "equity": 929.0678965345857,
+      "unrealizedPnl": -20.263257944111594,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169372777,
+      "balance": 949.3311544786973,
+      "equity": 929.9310071544814,
+      "unrealizedPnl": -19.400147324215816,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169382778,
+      "balance": 949.3311544786973,
+      "equity": 930.0054132424035,
+      "unrealizedPnl": -19.325741236293744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169392778,
+      "balance": 949.3311544786973,
+      "equity": 931.027256849867,
+      "unrealizedPnl": -18.3038976288303,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169402778,
+      "balance": 949.3311544786973,
+      "equity": 930.3278396233992,
+      "unrealizedPnl": -19.003314855298086,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169412779,
+      "balance": 949.3311544786973,
+      "equity": 930.7296324981787,
+      "unrealizedPnl": -18.601521980518598,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169422780,
+      "balance": 949.3311544786973,
+      "equity": 930.3228792175381,
+      "unrealizedPnl": -19.008275261159124,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169432780,
+      "balance": 949.3311544786973,
+      "equity": 930.9429299502222,
+      "unrealizedPnl": -18.388224528475174,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169442781,
+      "balance": 949.3311544786973,
+      "equity": 931.2504751136332,
+      "unrealizedPnl": -18.080679365064075,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169452782,
+      "balance": 949.3311544786973,
+      "equity": 931.9002882814856,
+      "unrealizedPnl": -17.430866197211724,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169462783,
+      "balance": 949.3311544786973,
+      "equity": 932.1036649218062,
+      "unrealizedPnl": -17.2274895568911,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169472784,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169482785,
+      "balance": 949.3311544786973,
+      "equity": 933.3487267930359,
+      "unrealizedPnl": -15.982427685661435,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169492786,
+      "balance": 949.3311544786973,
+      "equity": 933.3487267930359,
+      "unrealizedPnl": -15.982427685661435,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169502787,
+      "balance": 949.3311544786973,
+      "equity": 933.3437663871741,
+      "unrealizedPnl": -15.987388091523195,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169512788,
+      "balance": 949.3311544786973,
+      "equity": 933.0957460941005,
+      "unrealizedPnl": -16.235408384596774,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169522789,
+      "balance": 949.3311544786973,
+      "equity": 932.6989136251827,
+      "unrealizedPnl": -16.632240853514507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169532791,
+      "balance": 949.3311544786973,
+      "equity": 933.1354293409925,
+      "unrealizedPnl": -16.19572513770486,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169542792,
+      "balance": 949.3311544786973,
+      "equity": 933.3437663871741,
+      "unrealizedPnl": -15.987388091523195,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169552792,
+      "balance": 949.3311544786973,
+      "equity": 933.3487267930359,
+      "unrealizedPnl": -15.982427685661435,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169562794,
+      "balance": 949.3311544786973,
+      "equity": 933.6711531740315,
+      "unrealizedPnl": -15.66000130466578,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169572794,
+      "balance": 949.3311544786973,
+      "equity": 933.2048750230528,
+      "unrealizedPnl": -16.126279455644543,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169582794,
+      "balance": 949.3311544786973,
+      "equity": 933.4429745044035,
+      "unrealizedPnl": -15.888179974293761,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169592795,
+      "balance": 949.3311544786973,
+      "equity": 934.5789074466802,
+      "unrealizedPnl": -14.75224703201705,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169602797,
+      "balance": 949.3311544786973,
+      "equity": 934.5888282584037,
+      "unrealizedPnl": -14.742326220293528,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169612798,
+      "balance": 949.3311544786973,
+      "equity": 935.3576911669319,
+      "unrealizedPnl": -13.973463311765425,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169622799,
+      "balance": 949.3311544786973,
+      "equity": 935.2386414262561,
+      "unrealizedPnl": -14.092513052441177,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169632800,
+      "balance": 949.3311544786973,
+      "equity": 935.2436018321179,
+      "unrealizedPnl": -14.087552646579416,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169642800,
+      "balance": 949.3311544786973,
+      "equity": 935.2386414262561,
+      "unrealizedPnl": -14.092513052441177,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169652801,
+      "balance": 949.3311544786973,
+      "equity": 935.2138393969487,
+      "unrealizedPnl": -14.117315081748536,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169662802,
+      "balance": 949.3311544786973,
+      "equity": 934.5937886642648,
+      "unrealizedPnl": -14.737365814432488,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169672803,
+      "balance": 949.3311544786973,
+      "equity": 933.6810739857543,
+      "unrealizedPnl": -15.65008049294298,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169682804,
+      "balance": 949.3311544786973,
+      "equity": 932.9915775710093,
+      "unrealizedPnl": -16.339576907687967,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169692805,
+      "balance": 949.3311544786973,
+      "equity": 933.4479349102653,
+      "unrealizedPnl": -15.883219568432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169702805,
+      "balance": 949.3311544786973,
+      "equity": 933.4479349102653,
+      "unrealizedPnl": -15.883219568432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169712806,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169722807,
+      "balance": 949.3311544786973,
+      "equity": 931.5034558125678,
+      "unrealizedPnl": -17.827698666129457,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169732808,
+      "balance": 949.3311544786973,
+      "equity": 931.5084162184296,
+      "unrealizedPnl": -17.822738260267695,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169742808,
+      "balance": 949.3311544786973,
+      "equity": 931.1909502432957,
+      "unrealizedPnl": -18.14020423540159,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169752809,
+      "balance": 949.3311544786973,
+      "equity": 931.2554355194942,
+      "unrealizedPnl": -18.075718959203037,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169762810,
+      "balance": 949.3311544786973,
+      "equity": 930.9280487326375,
+      "unrealizedPnl": -18.40310574605973,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169772812,
+      "balance": 949.3311544786973,
+      "equity": 930.1542254182477,
+      "unrealizedPnl": -19.176929060449595,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169782812,
+      "balance": 949.3311544786973,
+      "equity": 929.8665218782821,
+      "unrealizedPnl": -19.464632600415094,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169792813,
+      "balance": 949.3311544786973,
+      "equity": 930.1443046065249,
+      "unrealizedPnl": -19.18684987217239,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169802814,
+      "balance": 949.3311544786973,
+      "equity": 930.293116782369,
+      "unrealizedPnl": -19.038037696328242,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169812815,
+      "balance": 949.3311544786973,
+      "equity": 930.3030375940918,
+      "unrealizedPnl": -19.028116884605446,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169822816,
+      "balance": 949.3311544786973,
+      "equity": 931.1859898374339,
+      "unrealizedPnl": -18.14516464126335,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169832816,
+      "balance": 949.3311544786973,
+      "equity": 931.1562274022648,
+      "unrealizedPnl": -18.17492707643247,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169842818,
+      "balance": 949.3311544786973,
+      "equity": 930.9478903560831,
+      "unrealizedPnl": -18.383264122614133,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169852818,
+      "balance": 949.3311544786973,
+      "equity": 931.5084162184296,
+      "unrealizedPnl": -17.822738260267695,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169862819,
+      "balance": 949.3311544786973,
+      "equity": 931.1711086198494,
+      "unrealizedPnl": -18.160045858847912,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169872820,
+      "balance": 949.3311544786973,
+      "equity": 931.1661482139883,
+      "unrealizedPnl": -18.16500626470895,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169882820,
+      "balance": 949.3311544786973,
+      "equity": 931.726674076334,
+      "unrealizedPnl": -17.604480402363233,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169892822,
+      "balance": 949.3311544786973,
+      "equity": 931.726674076334,
+      "unrealizedPnl": -17.604480402363233,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169902822,
+      "balance": 949.3311544786973,
+      "equity": 930.3228792175381,
+      "unrealizedPnl": -19.008275261159124,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169912823,
+      "balance": 949.3311544786973,
+      "equity": 931.2901583605251,
+      "unrealizedPnl": -18.04099611817216,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169922824,
+      "balance": 949.3311544786973,
+      "equity": 931.726674076334,
+      "unrealizedPnl": -17.604480402363233,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169932825,
+      "balance": 949.3311544786973,
+      "equity": 931.7316344821958,
+      "unrealizedPnl": -17.59951999650147,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169942826,
+      "balance": 949.3311544786973,
+      "equity": 931.7316344821958,
+      "unrealizedPnl": -17.59951999650147,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169952827,
+      "balance": 949.3311544786973,
+      "equity": 931.7316344821958,
+      "unrealizedPnl": -17.59951999650147,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169962828,
+      "balance": 949.3311544786973,
+      "equity": 932.0987045159444,
+      "unrealizedPnl": -17.23244996275286,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169972829,
+      "balance": 949.3311544786973,
+      "equity": 932.4112100852172,
+      "unrealizedPnl": -16.919944393480005,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169982830,
+      "balance": 949.3311544786973,
+      "equity": 932.7733197131048,
+      "unrealizedPnl": -16.557834765592432,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779169992830,
+      "balance": 949.3311544786973,
+      "equity": 932.3665664324643,
+      "unrealizedPnl": -16.964588046232958,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170002831,
+      "balance": 949.3311544786973,
+      "equity": 931.607624335659,
+      "unrealizedPnl": -17.723530143038264,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170012832,
+      "balance": 949.3311544786973,
+      "equity": 931.607624335659,
+      "unrealizedPnl": -17.723530143038264,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170022833,
+      "balance": 949.3311544786973,
+      "equity": 931.4389705363693,
+      "unrealizedPnl": -17.89218394232801,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170032833,
+      "balance": 949.3311544786973,
+      "equity": 931.4389705363693,
+      "unrealizedPnl": -17.89218394232801,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170042834,
+      "balance": 949.3311544786973,
+      "equity": 931.6572283942737,
+      "unrealizedPnl": -17.67392608442355,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170052835,
+      "balance": 949.3311544786973,
+      "equity": 931.6572283942737,
+      "unrealizedPnl": -17.67392608442355,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170062836,
+      "balance": 949.3311544786973,
+      "equity": 932.3219227797106,
+      "unrealizedPnl": -17.00923169898664,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170072837,
+      "balance": 949.3311544786973,
+      "equity": 931.88044665804,
+      "unrealizedPnl": -17.450707820657325,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170082837,
+      "balance": 949.3311544786973,
+      "equity": 931.6671492059966,
+      "unrealizedPnl": -17.664005272700745,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170092837,
+      "balance": 949.3311544786973,
+      "equity": 932.257437503512,
+      "unrealizedPnl": -17.07371697518519,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170102838,
+      "balance": 949.3311544786973,
+      "equity": 933.1354293409925,
+      "unrealizedPnl": -16.19572513770486,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170112840,
+      "balance": 949.3311544786973,
+      "equity": 932.9320527006718,
+      "unrealizedPnl": -16.399101778025486,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170122840,
+      "balance": 949.3311544786973,
+      "equity": 933.3239247637284,
+      "unrealizedPnl": -16.007229714968794,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170132842,
+      "balance": 949.3311544786973,
+      "equity": 933.5917866802477,
+      "unrealizedPnl": -15.739367798449614,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170142842,
+      "balance": 949.3311544786973,
+      "equity": 933.5917866802477,
+      "unrealizedPnl": -15.739367798449614,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170152844,
+      "balance": 949.3311544786973,
+      "equity": 932.9816567592865,
+      "unrealizedPnl": -16.349497719410767,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170162844,
+      "balance": 949.3311544786973,
+      "equity": 932.9866171651482,
+      "unrealizedPnl": -16.344537313549008,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170172844,
+      "balance": 949.3311544786973,
+      "equity": 932.9866171651482,
+      "unrealizedPnl": -16.344537313549008,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170182845,
+      "balance": 949.3311544786973,
+      "equity": 933.4727369395727,
+      "unrealizedPnl": -15.858417539124641,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170192845,
+      "balance": 949.3311544786973,
+      "equity": 932.9866171651482,
+      "unrealizedPnl": -16.344537313549008,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170202847,
+      "balance": 949.3311544786973,
+      "equity": 932.7038740310445,
+      "unrealizedPnl": -16.627280447652744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170212848,
+      "balance": 949.3311544786973,
+      "equity": 933.3189643578668,
+      "unrealizedPnl": -16.01219012083055,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170222849,
+      "balance": 949.3311544786973,
+      "equity": 933.2941623285593,
+      "unrealizedPnl": -16.03699215013791,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170232850,
+      "balance": 949.3311544786973,
+      "equity": 932.7931613365504,
+      "unrealizedPnl": -16.53799314214683,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170242851,
+      "balance": 949.3311544786973,
+      "equity": 933.3239247637284,
+      "unrealizedPnl": -16.007229714968794,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170252852,
+      "balance": 949.3311544786973,
+      "equity": 933.4429745044035,
+      "unrealizedPnl": -15.888179974293761,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170262853,
+      "balance": 949.3311544786973,
+      "equity": 933.4429745044035,
+      "unrealizedPnl": -15.888179974293761,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170272854,
+      "balance": 949.3311544786973,
+      "equity": 933.1354293409925,
+      "unrealizedPnl": -16.19572513770486,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170282855,
+      "balance": 949.3311544786973,
+      "equity": 933.1354293409925,
+      "unrealizedPnl": -16.19572513770486,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170292856,
+      "balance": 949.3311544786973,
+      "equity": 932.8526862068886,
+      "unrealizedPnl": -16.478468271808598,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170302857,
+      "balance": 949.3311544786973,
+      "equity": 932.1185461393907,
+      "unrealizedPnl": -17.21260833930654,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170312858,
+      "balance": 949.3311544786973,
+      "equity": 932.113585733529,
+      "unrealizedPnl": -17.2175687451683,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170322859,
+      "balance": 949.3311544786973,
+      "equity": 932.5550618552004,
+      "unrealizedPnl": -16.776092623496893,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170332860,
+      "balance": 949.3311544786973,
+      "equity": 932.4211308969401,
+      "unrealizedPnl": -16.910023581757205,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170342862,
+      "balance": 949.3311544786973,
+      "equity": 932.1086253276679,
+      "unrealizedPnl": -17.22252915102934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170352863,
+      "balance": 949.3311544786973,
+      "equity": 932.1086253276679,
+      "unrealizedPnl": -17.22252915102934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170362864,
+      "balance": 949.3311544786973,
+      "equity": 932.5501014493386,
+      "unrealizedPnl": -16.781053029358656,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170372865,
+      "balance": 949.3311544786973,
+      "equity": 932.5550618552004,
+      "unrealizedPnl": -16.776092623496893,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170382866,
+      "balance": 949.3311544786973,
+      "equity": 933.4727369395727,
+      "unrealizedPnl": -15.858417539124641,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170392867,
+      "balance": 949.3311544786973,
+      "equity": 933.4727369395727,
+      "unrealizedPnl": -15.858417539124641,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170402868,
+      "balance": 949.3311544786973,
+      "equity": 933.3983308516506,
+      "unrealizedPnl": -15.932823627046718,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170412869,
+      "balance": 949.3311544786973,
+      "equity": 933.4032912575116,
+      "unrealizedPnl": -15.927863221185678,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170422869,
+      "balance": 949.3311544786973,
+      "equity": 933.4032912575116,
+      "unrealizedPnl": -15.927863221185678,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170432870,
+      "balance": 949.3311544786973,
+      "equity": 934.1820749777625,
+      "unrealizedPnl": -15.149079500934777,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170442871,
+      "balance": 949.3311544786973,
+      "equity": 933.5719450568021,
+      "unrealizedPnl": -15.75920942189521,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170452872,
+      "balance": 949.3311544786973,
+      "equity": 934.1175897015639,
+      "unrealizedPnl": -15.213564777133332,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170462873,
+      "balance": 949.3311544786973,
+      "equity": 934.5045013587581,
+      "unrealizedPnl": -14.826653119939122,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170472874,
+      "balance": 949.3311544786973,
+      "equity": 934.4995409528971,
+      "unrealizedPnl": -14.831613525800162,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170482876,
+      "balance": 949.3311544786973,
+      "equity": 934.4995409528971,
+      "unrealizedPnl": -14.831613525800162,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170492877,
+      "balance": 949.3311544786973,
+      "equity": 934.0431836136419,
+      "unrealizedPnl": -15.287970865055406,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170502878,
+      "balance": 949.3311544786973,
+      "equity": 933.7902029147065,
+      "unrealizedPnl": -15.540951563990747,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170512880,
+      "balance": 949.3311544786973,
+      "equity": 933.7951633205682,
+      "unrealizedPnl": -15.535991158128986,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170522881,
+      "balance": 949.3311544786973,
+      "equity": 934.0283023960573,
+      "unrealizedPnl": -15.302852082639966,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170532882,
+      "balance": 949.3311544786973,
+      "equity": 933.2991227344211,
+      "unrealizedPnl": -16.03203174427615,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170542882,
+      "balance": 949.3311544786973,
+      "equity": 933.2991227344211,
+      "unrealizedPnl": -16.03203174427615,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170552883,
+      "balance": 949.3311544786973,
+      "equity": 933.2941623285593,
+      "unrealizedPnl": -16.03699215013791,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170562885,
+      "balance": 949.3311544786973,
+      "equity": 931.6572283942737,
+      "unrealizedPnl": -17.67392608442355,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170572886,
+      "balance": 949.3311544786973,
+      "equity": 931.1165441553736,
+      "unrealizedPnl": -18.214610323323665,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170582887,
+      "balance": 949.3311544786973,
+      "equity": 930.6155431633647,
+      "unrealizedPnl": -18.715611315332588,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170592888,
+      "balance": 949.3311544786973,
+      "equity": 931.9250903107929,
+      "unrealizedPnl": -17.40606416790437,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170602888,
+      "balance": 949.3311544786973,
+      "equity": 931.9250903107929,
+      "unrealizedPnl": -17.40606416790437,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170612888,
+      "balance": 949.3311544786973,
+      "equity": 930.6155431633647,
+      "unrealizedPnl": -18.715611315332588,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170622888,
+      "balance": 949.3311544786973,
+      "equity": 930.3228792175381,
+      "unrealizedPnl": -19.008275261159124,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170632890,
+      "balance": 949.3311544786973,
+      "equity": 930.3228792175381,
+      "unrealizedPnl": -19.008275261159124,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170642892,
+      "balance": 949.3311544786973,
+      "equity": 930.7941177743779,
+      "unrealizedPnl": -18.53703670431932,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170652893,
+      "balance": 949.3311544786973,
+      "equity": 931.1264649670964,
+      "unrealizedPnl": -18.204689511600865,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170662894,
+      "balance": 949.3311544786973,
+      "equity": 931.260395925356,
+      "unrealizedPnl": -18.07075855334128,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170672895,
+      "balance": 949.3311544786973,
+      "equity": 930.6205035692265,
+      "unrealizedPnl": -18.71065090947083,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170682896,
+      "balance": 949.3311544786973,
+      "equity": 930.6155431633647,
+      "unrealizedPnl": -18.715611315332588,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170692897,
+      "balance": 949.3311544786973,
+      "equity": 930.293116782369,
+      "unrealizedPnl": -19.038037696328242,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170702897,
+      "balance": 949.3311544786973,
+      "equity": 929.9409279662043,
+      "unrealizedPnl": -19.39022651249302,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170712897,
+      "balance": 949.3311544786973,
+      "equity": 930.4766517992433,
+      "unrealizedPnl": -18.85450267945394,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170722898,
+      "balance": 949.3311544786973,
+      "equity": 930.2286315061698,
+      "unrealizedPnl": -19.10252297252752,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170732899,
+      "balance": 949.3311544786973,
+      "equity": 931.146306590542,
+      "unrealizedPnl": -18.184847888155268,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170742899,
+      "balance": 949.3311544786973,
+      "equity": 931.146306590542,
+      "unrealizedPnl": -18.184847888155268,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170752899,
+      "balance": 949.3311544786973,
+      "equity": 931.4092081012002,
+      "unrealizedPnl": -17.921946377497125,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170762900,
+      "balance": 949.3311544786973,
+      "equity": 931.9498923401003,
+      "unrealizedPnl": -17.38126213859701,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170772902,
+      "balance": 949.3311544786973,
+      "equity": 932.8526862068886,
+      "unrealizedPnl": -16.478468271808598,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170782903,
+      "balance": 949.3311544786973,
+      "equity": 932.5897846962305,
+      "unrealizedPnl": -16.741369782466737,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170792904,
+      "balance": 949.3311544786973,
+      "equity": 932.3715268383254,
+      "unrealizedPnl": -16.95962764037192,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170802905,
+      "balance": 949.3311544786973,
+      "equity": 931.4340101305075,
+      "unrealizedPnl": -17.897144348189773,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170812906,
+      "balance": 949.3311544786973,
+      "equity": 931.1165441553736,
+      "unrealizedPnl": -18.214610323323665,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170822908,
+      "balance": 949.3311544786973,
+      "equity": 931.1115837495119,
+      "unrealizedPnl": -18.219570729185428,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170832908,
+      "balance": 949.3311544786973,
+      "equity": 930.6155431633647,
+      "unrealizedPnl": -18.715611315332588,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170842910,
+      "balance": 949.3311544786973,
+      "equity": 930.4617705816588,
+      "unrealizedPnl": -18.869383897038496,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170852912,
+      "balance": 949.3311544786973,
+      "equity": 931.1165441553736,
+      "unrealizedPnl": -18.214610323323665,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170862912,
+      "balance": 949.3311544786973,
+      "equity": 931.1115837495119,
+      "unrealizedPnl": -18.219570729185428,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170872912,
+      "balance": 949.3311544786973,
+      "equity": 931.8903674697627,
+      "unrealizedPnl": -17.440787008934524,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170882913,
+      "balance": 949.3311544786973,
+      "equity": 931.3199207956935,
+      "unrealizedPnl": -18.01123368300376,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170892914,
+      "balance": 949.3311544786973,
+      "equity": 931.9002882814856,
+      "unrealizedPnl": -17.430866197211724,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170902916,
+      "balance": 949.3311544786973,
+      "equity": 931.4538517539531,
+      "unrealizedPnl": -17.877302724744172,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170912916,
+      "balance": 949.3311544786973,
+      "equity": 930.6155431633647,
+      "unrealizedPnl": -18.715611315332588,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170922916,
+      "balance": 949.3311544786973,
+      "equity": 931.4042476953384,
+      "unrealizedPnl": -17.926906783358888,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170932918,
+      "balance": 949.3311544786973,
+      "equity": 932.073902486637,
+      "unrealizedPnl": -17.25725199206022,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170942919,
+      "balance": 949.3311544786973,
+      "equity": 931.2802375488016,
+      "unrealizedPnl": -18.05091692989568,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170952920,
+      "balance": 949.3311544786973,
+      "equity": 931.2802375488016,
+      "unrealizedPnl": -18.05091692989568,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170962921,
+      "balance": 949.3311544786973,
+      "equity": 932.0639816749142,
+      "unrealizedPnl": -17.26717280378302,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170972922,
+      "balance": 949.3311544786973,
+      "equity": 932.0639816749142,
+      "unrealizedPnl": -17.26717280378302,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170982924,
+      "balance": 949.3311544786973,
+      "equity": 932.346724809018,
+      "unrealizedPnl": -16.98442966967928,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779170992925,
+      "balance": 949.3311544786973,
+      "equity": 932.346724809018,
+      "unrealizedPnl": -16.98442966967928,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171002926,
+      "balance": 949.3311544786973,
+      "equity": 930.3724832761528,
+      "unrealizedPnl": -18.958671202544412,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171012927,
+      "balance": 949.3311544786973,
+      "equity": 930.1939086651396,
+      "unrealizedPnl": -19.137245813557676,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171022928,
+      "balance": 949.3311544786973,
+      "equity": 930.4419289582132,
+      "unrealizedPnl": -18.889225520484096,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171032930,
+      "balance": 949.3311544786973,
+      "equity": 929.6631452379622,
+      "unrealizedPnl": -19.668009240734996,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171042931,
+      "balance": 949.3311544786973,
+      "equity": 930.5609786988882,
+      "unrealizedPnl": -18.770175779809062,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171052843,
+      "balance": 949.3311544786973,
+      "equity": 931.1363857788192,
+      "unrealizedPnl": -18.194768699878068,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171062843,
+      "balance": 949.3311544786973,
+      "equity": 930.05997770688,
+      "unrealizedPnl": -19.271176771817267,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171072844,
+      "balance": 949.3311544786973,
+      "equity": 930.0550173010182,
+      "unrealizedPnl": -19.276137177679026,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171082845,
+      "balance": 949.3311544786973,
+      "equity": 931.0173360381442,
+      "unrealizedPnl": -18.313818440553096,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171092846,
+      "balance": 949.3311544786973,
+      "equity": 931.0123756322824,
+      "unrealizedPnl": -18.318778846414858,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171102847,
+      "balance": 949.3311544786973,
+      "equity": 931.0123756322824,
+      "unrealizedPnl": -18.318778846414858,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171112848,
+      "balance": 949.3311544786973,
+      "equity": 931.0123756322824,
+      "unrealizedPnl": -18.318778846414858,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171122848,
+      "balance": 949.3311544786973,
+      "equity": 932.0590212690532,
+      "unrealizedPnl": -17.272133209644057,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171132849,
+      "balance": 949.3311544786973,
+      "equity": 932.0639816749142,
+      "unrealizedPnl": -17.26717280378302,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171142850,
+      "balance": 949.3311544786973,
+      "equity": 932.1086253276679,
+      "unrealizedPnl": -17.22252915102934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171152851,
+      "balance": 949.3311544786973,
+      "equity": 931.0173360381442,
+      "unrealizedPnl": -18.313818440553096,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171162851,
+      "balance": 949.3311544786973,
+      "equity": 930.332800029261,
+      "unrealizedPnl": -18.998354449436327,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171172853,
+      "balance": 949.3311544786973,
+      "equity": 929.6929076731307,
+      "unrealizedPnl": -19.638246805566602,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171182853,
+      "balance": 949.3311544786973,
+      "equity": 929.6879472672697,
+      "unrealizedPnl": -19.643207211427637,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171192854,
+      "balance": 949.3311544786973,
+      "equity": 929.6879472672697,
+      "unrealizedPnl": -19.643207211427637,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171202854,
+      "balance": 949.3311544786973,
+      "equity": 928.8347574590966,
+      "unrealizedPnl": -20.496397019600614,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171212855,
+      "balance": 949.3311544786973,
+      "equity": 928.8297970532349,
+      "unrealizedPnl": -20.501357425462373,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171222856,
+      "balance": 949.3311544786973,
+      "equity": 928.8347574590966,
+      "unrealizedPnl": -20.496397019600614,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171232856,
+      "balance": 949.3311544786973,
+      "equity": 928.8297970532349,
+      "unrealizedPnl": -20.501357425462373,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171242858,
+      "balance": 949.3311544786973,
+      "equity": 928.8347574590966,
+      "unrealizedPnl": -20.496397019600614,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171252859,
+      "balance": 949.3311544786973,
+      "equity": 928.6413016304988,
+      "unrealizedPnl": -20.68985284819844,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171262859,
+      "balance": 949.3311544786973,
+      "equity": 928.4528062077628,
+      "unrealizedPnl": -20.878348270934506,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171272859,
+      "balance": 949.3311544786973,
+      "equity": 928.4478458019017,
+      "unrealizedPnl": -20.883308676795544,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171282860,
+      "balance": 949.3311544786973,
+      "equity": 928.4478458019017,
+      "unrealizedPnl": -20.883308676795544,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171292861,
+      "balance": 949.3311544786973,
+      "equity": 928.4528062077628,
+      "unrealizedPnl": -20.878348270934506,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171302862,
+      "balance": 949.3311544786973,
+      "equity": 928.5966579777458,
+      "unrealizedPnl": -20.734496500951398,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171312862,
+      "balance": 949.3311544786973,
+      "equity": 928.4081625550098,
+      "unrealizedPnl": -20.922991923687462,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171322862,
+      "balance": 949.3311544786973,
+      "equity": 928.1502214502134,
+      "unrealizedPnl": -21.180933028483842,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171332863,
+      "balance": 949.3311544786973,
+      "equity": 928.94884679391,
+      "unrealizedPnl": -20.382307684787342,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171342864,
+      "balance": 949.3311544786973,
+      "equity": 928.94884679391,
+      "unrealizedPnl": -20.382307684787342,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171352863,
+      "balance": 949.3311544786973,
+      "equity": 929.0530153170012,
+      "unrealizedPnl": -20.27813916169615,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171362864,
+      "balance": 949.3311544786973,
+      "equity": 928.9835696349407,
+      "unrealizedPnl": -20.347584843756465,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171372864,
+      "balance": 949.3311544786973,
+      "equity": 928.9835696349407,
+      "unrealizedPnl": -20.347584843756465,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171382865,
+      "balance": 949.3311544786973,
+      "equity": 928.9835696349407,
+      "unrealizedPnl": -20.347584843756465,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171392866,
+      "balance": 949.3311544786973,
+      "equity": 929.6085807734858,
+      "unrealizedPnl": -19.722573705211474,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171402867,
+      "balance": 949.3311544786973,
+      "equity": 929.916125936897,
+      "unrealizedPnl": -19.41502854180038,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171412867,
+      "balance": 949.3311544786973,
+      "equity": 929.5738579324557,
+      "unrealizedPnl": -19.75729654624163,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171422867,
+      "balance": 949.3311544786973,
+      "equity": 929.4250457566114,
+      "unrealizedPnl": -19.90610872208578,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171432867,
+      "balance": 949.3311544786973,
+      "equity": 929.4300061624732,
+      "unrealizedPnl": -19.901148316224017,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171442867,
+      "balance": 949.3311544786973,
+      "equity": 929.4300061624732,
+      "unrealizedPnl": -19.901148316224017,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171452868,
+      "balance": 949.3311544786973,
+      "equity": 928.9885300408018,
+      "unrealizedPnl": -20.342624437895427,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171462869,
+      "balance": 949.3311544786973,
+      "equity": 929.916125936897,
+      "unrealizedPnl": -19.41502854180038,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171472870,
+      "balance": 949.3311544786973,
+      "equity": 932.0441400514686,
+      "unrealizedPnl": -17.287014427228616,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171482871,
+      "balance": 949.3311544786973,
+      "equity": 931.1661482139883,
+      "unrealizedPnl": -18.16500626470895,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171492872,
+      "balance": 949.3311544786973,
+      "equity": 931.3893664777545,
+      "unrealizedPnl": -17.941788000942726,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171502873,
+      "balance": 949.3311544786973,
+      "equity": 930.6750680337022,
+      "unrealizedPnl": -18.656086444995076,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171512874,
+      "balance": 949.3311544786973,
+      "equity": 930.6750680337022,
+      "unrealizedPnl": -18.656086444995076,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171522874,
+      "balance": 949.3311544786973,
+      "equity": 929.990532024819,
+      "unrealizedPnl": -19.3406224538783,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171532875,
+      "balance": 949.3311544786973,
+      "equity": 929.25143155146,
+      "unrealizedPnl": -20.079722927237285,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171542874,
+      "balance": 949.3311544786973,
+      "equity": 929.2911147983519,
+      "unrealizedPnl": -20.04003968034537,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171552876,
+      "balance": 949.3311544786973,
+      "equity": 929.6185015852086,
+      "unrealizedPnl": -19.712652893488674,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171562876,
+      "balance": 949.3311544786973,
+      "equity": 929.6185015852086,
+      "unrealizedPnl": -19.712652893488674,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171572877,
+      "balance": 949.3311544786973,
+      "equity": 929.8962843134512,
+      "unrealizedPnl": -19.434870165245975,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171582878,
+      "balance": 949.3311544786973,
+      "equity": 930.0103736482653,
+      "unrealizedPnl": -19.320780830431982,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171592879,
+      "balance": 949.3311544786973,
+      "equity": 930.0103736482653,
+      "unrealizedPnl": -19.320780830431982,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171602880,
+      "balance": 949.3311544786973,
+      "equity": 930.0153340541264,
+      "unrealizedPnl": -19.315820424570944,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171612881,
+      "balance": 949.3311544786973,
+      "equity": 929.8417198489748,
+      "unrealizedPnl": -19.48943462972245,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171622883,
+      "balance": 949.3311544786973,
+      "equity": 929.5738579324557,
+      "unrealizedPnl": -19.75729654624163,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171632884,
+      "balance": 949.3311544786973,
+      "equity": 929.132381810785,
+      "unrealizedPnl": -20.198772667912316,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171642884,
+      "balance": 949.3311544786973,
+      "equity": 929.9508487779278,
+      "unrealizedPnl": -19.380305700769497,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171652886,
+      "balance": 949.3311544786973,
+      "equity": 930.0550173010182,
+      "unrealizedPnl": -19.276137177679026,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171662885,
+      "balance": 949.3311544786973,
+      "equity": 929.439926974196,
+      "unrealizedPnl": -19.89122750450122,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171672886,
+      "balance": 949.3311544786973,
+      "equity": 928.5272122956849,
+      "unrealizedPnl": -20.80394218301243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171682887,
+      "balance": 949.3311544786973,
+      "equity": 928.5272122956849,
+      "unrealizedPnl": -20.80394218301243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171692887,
+      "balance": 949.3311544786973,
+      "equity": 929.1026193756159,
+      "unrealizedPnl": -20.228535103081434,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171702888,
+      "balance": 949.3311544786973,
+      "equity": 929.2365503338755,
+      "unrealizedPnl": -20.094604144821844,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171712888,
+      "balance": 949.3311544786973,
+      "equity": 928.6413016304988,
+      "unrealizedPnl": -20.68985284819844,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171722889,
+      "balance": 949.3311544786973,
+      "equity": 928.5321727015466,
+      "unrealizedPnl": -20.798981777150672,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171732891,
+      "balance": 949.3311544786973,
+      "equity": 928.6264204129143,
+      "unrealizedPnl": -20.704734065782997,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171742891,
+      "balance": 949.3311544786973,
+      "equity": 928.631380818776,
+      "unrealizedPnl": -20.699773659921238,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171752892,
+      "balance": 949.3311544786973,
+      "equity": 928.1006173915987,
+      "unrealizedPnl": -21.230537087098558,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171762892,
+      "balance": 949.3311544786973,
+      "equity": 928.0956569857369,
+      "unrealizedPnl": -21.23549749296032,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171772894,
+      "balance": 949.3311544786973,
+      "equity": 928.7950742122048,
+      "unrealizedPnl": -20.53608026649253,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171782894,
+      "balance": 949.3311544786973,
+      "equity": 928.7950742122048,
+      "unrealizedPnl": -20.53608026649253,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171792896,
+      "balance": 949.3311544786973,
+      "equity": 928.7950742122048,
+      "unrealizedPnl": -20.53608026649253,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171802896,
+      "balance": 949.3311544786973,
+      "equity": 928.8000346180658,
+      "unrealizedPnl": -20.53111986063149,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171812897,
+      "balance": 949.3311544786973,
+      "equity": 928.7950742122048,
+      "unrealizedPnl": -20.53608026649253,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171822898,
+      "balance": 949.3311544786973,
+      "equity": 928.5272122956849,
+      "unrealizedPnl": -20.80394218301243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171832898,
+      "balance": 949.3311544786973,
+      "equity": 928.5272122956849,
+      "unrealizedPnl": -20.80394218301243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171842899,
+      "balance": 949.3311544786973,
+      "equity": 928.5321727015466,
+      "unrealizedPnl": -20.798981777150672,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171852900,
+      "balance": 949.3311544786973,
+      "equity": 929.2365503338755,
+      "unrealizedPnl": -20.094604144821844,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171862901,
+      "balance": 949.3311544786973,
+      "equity": 929.2365503338755,
+      "unrealizedPnl": -20.094604144821844,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171872902,
+      "balance": 949.3311544786973,
+      "equity": 930.0550173010182,
+      "unrealizedPnl": -19.276137177679026,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171882902,
+      "balance": 949.3311544786973,
+      "equity": 930.0500568951572,
+      "unrealizedPnl": -19.281097583540067,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171892904,
+      "balance": 949.3311544786973,
+      "equity": 930.5560182930271,
+      "unrealizedPnl": -18.775136185670103,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171902904,
+      "balance": 949.3311544786973,
+      "equity": 930.0550173010182,
+      "unrealizedPnl": -19.276137177679026,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171912904,
+      "balance": 949.3311544786973,
+      "equity": 930.1790274475551,
+      "unrealizedPnl": -19.152127031142236,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171922906,
+      "balance": 949.3311544786973,
+      "equity": 930.174067041694,
+      "unrealizedPnl": -19.157087437003273,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171932906,
+      "balance": 949.3311544786973,
+      "equity": 930.1790274475551,
+      "unrealizedPnl": -19.152127031142236,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171942907,
+      "balance": 949.3311544786973,
+      "equity": 930.1790274475551,
+      "unrealizedPnl": -19.152127031142236,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171952908,
+      "balance": 949.3311544786973,
+      "equity": 930.1790274475551,
+      "unrealizedPnl": -19.152127031142236,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171962908,
+      "balance": 949.3311544786973,
+      "equity": 929.7524325434689,
+      "unrealizedPnl": -19.578721935228362,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171972909,
+      "balance": 949.3311544786973,
+      "equity": 929.4151249448887,
+      "unrealizedPnl": -19.91602953380858,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171982909,
+      "balance": 949.3311544786973,
+      "equity": 929.4101645390269,
+      "unrealizedPnl": -19.920989939670335,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779171992910,
+      "balance": 949.3311544786973,
+      "equity": 929.4151249448887,
+      "unrealizedPnl": -19.91602953380858,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172002911,
+      "balance": 949.3311544786973,
+      "equity": 929.4151249448887,
+      "unrealizedPnl": -19.91602953380858,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172012913,
+      "balance": 949.3311544786973,
+      "equity": 928.8794011118496,
+      "unrealizedPnl": -20.451753366847658,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172022913,
+      "balance": 949.3311544786973,
+      "equity": 928.3535980905333,
+      "unrealizedPnl": -20.97755638816394,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172032914,
+      "balance": 949.3311544786973,
+      "equity": 928.1006173915987,
+      "unrealizedPnl": -21.230537087098558,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172042915,
+      "balance": 949.3311544786973,
+      "equity": 928.1006173915987,
+      "unrealizedPnl": -21.230537087098558,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172052916,
+      "balance": 949.3311544786973,
+      "equity": 928.1006173915987,
+      "unrealizedPnl": -21.230537087098558,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172062916,
+      "balance": 949.3311544786973,
+      "equity": 927.9418844040317,
+      "unrealizedPnl": -21.389270074665507,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172072917,
+      "balance": 949.3311544786973,
+      "equity": 927.1432590603346,
+      "unrealizedPnl": -22.187895418362725,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172082918,
+      "balance": 949.3311544786973,
+      "equity": 926.92500120243,
+      "unrealizedPnl": -22.40615327626719,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172092918,
+      "balance": 949.3311544786973,
+      "equity": 927.7335473578494,
+      "unrealizedPnl": -21.59760712084789,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172102919,
+      "balance": 949.3311544786973,
+      "equity": 928.5272122956849,
+      "unrealizedPnl": -20.80394218301243,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172112921,
+      "balance": 949.3311544786973,
+      "equity": 928.2395087557201,
+      "unrealizedPnl": -21.09164572297721,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172122921,
+      "balance": 949.3311544786973,
+      "equity": 928.1055777974598,
+      "unrealizedPnl": -21.22557668123752,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172132921,
+      "balance": 949.3311544786973,
+      "equity": 927.6442600523435,
+      "unrealizedPnl": -21.686894426353803,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172142922,
+      "balance": 949.3311544786973,
+      "equity": 928.1006173915987,
+      "unrealizedPnl": -21.230537087098558,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172152922,
+      "balance": 949.3311544786973,
+      "equity": 928.1055777974598,
+      "unrealizedPnl": -21.22557668123752,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172162923,
+      "balance": 949.3311544786973,
+      "equity": 928.4131229608715,
+      "unrealizedPnl": -20.9180315178257,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172172924,
+      "balance": 949.3311544786973,
+      "equity": 928.5668955425767,
+      "unrealizedPnl": -20.764258936120516,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172182923,
+      "balance": 949.3311544786973,
+      "equity": 929.370481292135,
+      "unrealizedPnl": -19.960673186562257,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172192924,
+      "balance": 949.3311544786973,
+      "equity": 929.1224609990614,
+      "unrealizedPnl": -20.208693479635837,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172202925,
+      "balance": 949.3311544786973,
+      "equity": 929.2911147983519,
+      "unrealizedPnl": -20.04003968034537,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172212926,
+      "balance": 949.3311544786973,
+      "equity": 928.1750234795207,
+      "unrealizedPnl": -21.156130999176483,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172222926,
+      "balance": 949.3311544786973,
+      "equity": 927.5202499058066,
+      "unrealizedPnl": -21.810904572890593,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172232926,
+      "balance": 949.3311544786973,
+      "equity": 927.2523879892868,
+      "unrealizedPnl": -22.078766489410494,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172242926,
+      "balance": 949.3311544786973,
+      "equity": 926.235504787685,
+      "unrealizedPnl": -23.095649691012177,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172252927,
+      "balance": 949.3311544786973,
+      "equity": 926.8456347086462,
+      "unrealizedPnl": -22.485519770051024,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172262929,
+      "balance": 949.3311544786973,
+      "equity": 927.0589321606897,
+      "unrealizedPnl": -22.2722223180076,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172272930,
+      "balance": 949.3311544786973,
+      "equity": 926.4934458924815,
+      "unrealizedPnl": -22.837708586215797,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172282930,
+      "balance": 949.3311544786973,
+      "equity": 926.508327110066,
+      "unrealizedPnl": -22.82282736863124,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172292931,
+      "balance": 949.3311544786973,
+      "equity": 927.3019920479015,
+      "unrealizedPnl": -22.02916243079578,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172302932,
+      "balance": 949.3311544786973,
+      "equity": 926.9795656669058,
+      "unrealizedPnl": -22.351588811791434,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172312933,
+      "balance": 949.3311544786973,
+      "equity": 926.6472184741874,
+      "unrealizedPnl": -22.68393600450989,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172322933,
+      "balance": 949.3311544786973,
+      "equity": 926.4140793986984,
+      "unrealizedPnl": -22.91707507999891,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172332935,
+      "balance": 949.3311544786973,
+      "equity": 927.1432590603346,
+      "unrealizedPnl": -22.187895418362725,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172342935,
+      "balance": 949.3311544786973,
+      "equity": 926.736505779694,
+      "unrealizedPnl": -22.594648699003255,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172352936,
+      "balance": 949.3311544786973,
+      "equity": 927.0986154075816,
+      "unrealizedPnl": -22.23253907111568,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172362937,
+      "balance": 949.3311544786973,
+      "equity": 927.3813585416854,
+      "unrealizedPnl": -21.949795937011945,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172372938,
+      "balance": 949.3311544786973,
+      "equity": 928.2643107850274,
+      "unrealizedPnl": -21.06684369366985,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172382940,
+      "balance": 949.3311544786973,
+      "equity": 928.4478458019017,
+      "unrealizedPnl": -20.883308676795544,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172392940,
+      "balance": 949.3311544786973,
+      "equity": 927.1482194661963,
+      "unrealizedPnl": -22.182935012500966,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172402941,
+      "balance": 949.3311544786973,
+      "equity": 925.4368794439886,
+      "unrealizedPnl": -23.894275034708677,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172412942,
+      "balance": 949.3311544786973,
+      "equity": 925.8585139422137,
+      "unrealizedPnl": -23.47264053648359,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172422943,
+      "balance": 949.3311544786973,
+      "equity": 926.9051595789838,
+      "unrealizedPnl": -22.42599489971351,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172432944,
+      "balance": 949.3311544786973,
+      "equity": 925.9577220594431,
+      "unrealizedPnl": -23.373432419254154,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172442945,
+      "balance": 949.3311544786973,
+      "equity": 925.6551373018931,
+      "unrealizedPnl": -23.676017176804212,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172452945,
+      "balance": 949.3311544786973,
+      "equity": 926.92500120243,
+      "unrealizedPnl": -22.40615327626719,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172462947,
+      "balance": 949.3311544786973,
+      "equity": 927.5053686882221,
+      "unrealizedPnl": -21.825785790475155,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172472947,
+      "balance": 949.3311544786973,
+      "equity": 928.1105382033215,
+      "unrealizedPnl": -21.220616275375757,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172482948,
+      "balance": 949.3311544786973,
+      "equity": 927.8873199395553,
+      "unrealizedPnl": -21.44383453914198,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172492950,
+      "balance": 949.3311544786973,
+      "equity": 927.8823595336935,
+      "unrealizedPnl": -21.448794945003744,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172502951,
+      "balance": 949.3311544786973,
+      "equity": 927.8079534457714,
+      "unrealizedPnl": -21.52320103292582,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172512952,
+      "balance": 949.3311544786973,
+      "equity": 928.1353402326289,
+      "unrealizedPnl": -21.1958142460684,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172522953,
+      "balance": 949.3311544786973,
+      "equity": 927.8625179102479,
+      "unrealizedPnl": -21.46863656844934,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172532953,
+      "balance": 949.3311544786973,
+      "equity": 928.051013332984,
+      "unrealizedPnl": -21.280141145713277,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172542954,
+      "balance": 949.3311544786973,
+      "equity": 928.0460529271222,
+      "unrealizedPnl": -21.285101551575035,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172552955,
+      "balance": 949.3311544786973,
+      "equity": 929.1274214049232,
+      "unrealizedPnl": -20.203733073774075,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172562955,
+      "balance": 949.3311544786973,
+      "equity": 929.6234619910704,
+      "unrealizedPnl": -19.707692487626915,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172572956,
+      "balance": 949.3311544786973,
+      "equity": 929.6234619910704,
+      "unrealizedPnl": -19.707692487626915,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172582957,
+      "balance": 949.3311544786973,
+      "equity": 929.3456792628276,
+      "unrealizedPnl": -19.985475215869613,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172592958,
+      "balance": 949.3311544786973,
+      "equity": 929.9409279662043,
+      "unrealizedPnl": -19.39022651249302,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172602958,
+      "balance": 949.3311544786973,
+      "equity": 930.1790274475551,
+      "unrealizedPnl": -19.152127031142236,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172612959,
+      "balance": 949.3311544786973,
+      "equity": 930.174067041694,
+      "unrealizedPnl": -19.157087437003273,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172622960,
+      "balance": 949.3311544786973,
+      "equity": 929.6333828027931,
+      "unrealizedPnl": -19.697771675904114,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172632960,
+      "balance": 949.3311544786973,
+      "equity": 931.6274659591046,
+      "unrealizedPnl": -17.703688519592667,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172642962,
+      "balance": 949.3311544786973,
+      "equity": 930.799078180239,
+      "unrealizedPnl": -18.532076298458282,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172652962,
+      "balance": 949.3311544786973,
+      "equity": 931.5183370301523,
+      "unrealizedPnl": -17.812817448544898,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172662963,
+      "balance": 949.3311544786973,
+      "equity": 931.7068324528884,
+      "unrealizedPnl": -17.62432202580883,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172672964,
+      "balance": 949.3311544786973,
+      "equity": 931.5977035239362,
+      "unrealizedPnl": -17.73345095476106,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172682964,
+      "balance": 949.3311544786973,
+      "equity": 930.6750680337022,
+      "unrealizedPnl": -18.656086444995076,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172692964,
+      "balance": 949.3311544786973,
+      "equity": 930.7891573685162,
+      "unrealizedPnl": -18.541997110181082,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172702966,
+      "balance": 949.3311544786973,
+      "equity": 930.05997770688,
+      "unrealizedPnl": -19.271176771817267,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172712967,
+      "balance": 949.3311544786973,
+      "equity": 929.7474721376071,
+      "unrealizedPnl": -19.583682341090125,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172722969,
+      "balance": 949.3311544786973,
+      "equity": 928.2395087557201,
+      "unrealizedPnl": -21.09164572297721,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172732970,
+      "balance": 949.3311544786973,
+      "equity": 927.1432590603346,
+      "unrealizedPnl": -22.187895418362725,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172742972,
+      "balance": 949.3311544786973,
+      "equity": 927.1482194661963,
+      "unrealizedPnl": -22.182935012500966,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172752972,
+      "balance": 949.3311544786973,
+      "equity": 926.9398824200139,
+      "unrealizedPnl": -22.391272058683352,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172762973,
+      "balance": 949.3311544786973,
+      "equity": 926.4240002104211,
+      "unrealizedPnl": -22.907154268276113,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172772974,
+      "balance": 949.3311544786973,
+      "equity": 926.4190398045594,
+      "unrealizedPnl": -22.91211467413787,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172782975,
+      "balance": 949.3311544786973,
+      "equity": 926.156138293902,
+      "unrealizedPnl": -23.17501618479529,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172792975,
+      "balance": 949.3311544786973,
+      "equity": 926.2702276287152,
+      "unrealizedPnl": -23.06092684998202,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172802976,
+      "balance": 949.3311544786973,
+      "equity": 926.11645504701,
+      "unrealizedPnl": -23.214699431687208,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172812978,
+      "balance": 949.3311544786973,
+      "equity": 926.7910702441698,
+      "unrealizedPnl": -22.5400842345275,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172822978,
+      "balance": 949.3311544786973,
+      "equity": 927.1184570310272,
+      "unrealizedPnl": -22.212697447670084,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172832980,
+      "balance": 949.3311544786973,
+      "equity": 926.8803575496764,
+      "unrealizedPnl": -22.450796929020868,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172842980,
+      "balance": 949.3311544786973,
+      "equity": 926.8952387672609,
+      "unrealizedPnl": -22.435915711436305,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172852981,
+      "balance": 949.3311544786973,
+      "equity": 927.1333382486117,
+      "unrealizedPnl": -22.197816230085525,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172862982,
+      "balance": 949.3311544786973,
+      "equity": 927.1333382486117,
+      "unrealizedPnl": -22.197816230085525,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172872983,
+      "balance": 949.3311544786973,
+      "equity": 927.1382986544728,
+      "unrealizedPnl": -22.192855824224488,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172882983,
+      "balance": 949.3311544786973,
+      "equity": 927.1382986544728,
+      "unrealizedPnl": -22.192855824224488,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172892985,
+      "balance": 949.3311544786973,
+      "equity": 927.1382986544728,
+      "unrealizedPnl": -22.192855824224488,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172902985,
+      "balance": 949.3311544786973,
+      "equity": 927.1333382486117,
+      "unrealizedPnl": -22.197816230085525,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172912986,
+      "balance": 949.3311544786973,
+      "equity": 927.1333382486117,
+      "unrealizedPnl": -22.197816230085525,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172922987,
+      "balance": 949.3311544786973,
+      "equity": 927.1333382486117,
+      "unrealizedPnl": -22.197816230085525,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172932988,
+      "balance": 949.3311544786973,
+      "equity": 926.4537626455902,
+      "unrealizedPnl": -22.877391833106994,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172942989,
+      "balance": 949.3311544786973,
+      "equity": 926.736505779694,
+      "unrealizedPnl": -22.594648699003255,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172952990,
+      "balance": 949.3311544786973,
+      "equity": 926.736505779694,
+      "unrealizedPnl": -22.594648699003255,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172962991,
+      "balance": 949.3311544786973,
+      "equity": 926.8704367379536,
+      "unrealizedPnl": -22.460717740743664,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172972993,
+      "balance": 949.3311544786973,
+      "equity": 926.1809403232094,
+      "unrealizedPnl": -23.15021415548793,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172983006,
+      "balance": 949.3311544786973,
+      "equity": 926.1809403232094,
+      "unrealizedPnl": -23.15021415548793,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779172993013,
+      "balance": 949.3311544786973,
+      "equity": 926.3743961518064,
+      "unrealizedPnl": -22.956758326890828,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779173003018,
+      "balance": 949.3311544786973,
+      "equity": 926.3793565576682,
+      "unrealizedPnl": -22.95179792102907,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779173013020,
+      "balance": 949.3311544786973,
+      "equity": 926.3743961518064,
+      "unrealizedPnl": -22.956758326890828,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779173023022,
+      "balance": 949.3311544786973,
+      "equity": 926.1859007290703,
+      "unrealizedPnl": -23.145253749626896,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779176024056,
+      "balance": 949.3311544786973,
+      "equity": 920.987395386248,
+      "unrealizedPnl": -28.343759092449304,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779176034055,
+      "balance": 949.3311544786973,
+      "equity": 920.987395386248,
+      "unrealizedPnl": -28.343759092449304,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779176044056,
+      "balance": 949.3311544786973,
+      "equity": 920.9824349803869,
+      "unrealizedPnl": -28.348719498310345,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779176054057,
+      "balance": 949.3311544786973,
+      "equity": 920.987395386248,
+      "unrealizedPnl": -28.343759092449304,
+      "openPositions": 1
+    },
+    {
+      "timestamp": 1779176064058,
+      "balance": 949.3311544786973,
+      "equity": 920.987395386248,
+      "unrealizedPnl": -28.343759092449304,
+      "openPositions": 1
+    }
+  ],
+  "lastUpdated": 1779176074057
+}
